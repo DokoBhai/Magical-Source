@@ -1,0 +1,6 @@
+changes the icons on the kingdom hearts HUD.
+
+v1: primary char
+v2: secondary char
+
+"_Icon" suffix is automatically added.

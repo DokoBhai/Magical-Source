@@ -1,0 +1,8 @@
+Value 1:
+How much you want the screen to shake
+
+Value 2:
+How fast you want the screen to shake
+
+How to turn off:
+Set both values to 0
