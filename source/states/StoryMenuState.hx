@@ -21,15 +21,18 @@ class StoryMenuState extends MusicBeatState
 
 	var scoreText:FlxText;
 
-	var book:FlxSprite = new FlxSprite(FlxG.width/2, FlxG.height/2).loadGraphic(Paths.image('books/book_pooh'));
+	var book:FlxSprite = new FlxSprite(FlxG.width/2, FlxG.height/2).loadGraphic(Paths.image('books/book_pooh')); //added by doko
 
-	var colorB:FlxSprite = new FlxSprite(FlxG.width, FlxG.height).loadGraphic(Paths.image('color/pooh'));
+	var colorB:FlxSprite = new FlxSprite(FlxG.width, FlxG.height).loadGraphic(Paths.image('color/pooh')); //added by doko
 
 	private static var lastDifficultyName:String = '';
 	var curDifficulty:Int = 1;
 
 	var txtWeekTitle:FlxText;
 	var bgSprite:FlxSprite;
+
+	var doko:FlxSprite = new FlxSprite();
+	
 
 	private static var curWeek:Int = 0;
 
@@ -79,7 +82,7 @@ class StoryMenuState extends MusicBeatState
 
 		if(curWeek >= WeekData.weeksList.length) curWeek = 0;
 
-		scoreText = new FlxText(10, 10, 0, Language.getPhrase('week_score', 'HIGH SCORE: {1}', [lerpScore]), 36);
+		scoreText = new FlxText(10, 10, 0, Language.getPhrase('high_score', 'HIGH SCORE: {1}', [lerpScore]), 36);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32);
 		scoreText.x += 900;
 		scoreText.y += 50;
@@ -108,7 +111,9 @@ class StoryMenuState extends MusicBeatState
 		add(grpLocks);
 
 		var num:Int = 0;
-		var itemTargetY:Float = 0;
+		var itemTargetX:Float = 0;
+		var baseX:Float = bgSprite.x + 146;
+		var spacing:Float = 120; // Adjust as needed for your menu
 		for (i in 0...WeekData.weeksList.length)
 		{
 			var weekFile:WeekData = WeekData.weeksLoaded.get(WeekData.weeksList[i]);
@@ -117,17 +122,16 @@ class StoryMenuState extends MusicBeatState
 			{
 				loadedWeeks.push(weekFile);
 				WeekData.setDirectoryFromWeek(weekFile);
-				var weekThing:MenuItem = new MenuItem(0, bgSprite.y + 396, WeekData.weeksList[i]);
-				weekThing.y += ((weekThing.height + 20) * num);
+				var weekThing:MenuItem = new MenuItem(baseX + (num * spacing),0 , WeekData.weeksList[i], function(item) {
+});
 				weekThing.ID = num;
-				weekThing.targetY = itemTargetY;
-				itemTargetY += Math.max(weekThing.height, 110) + 10;
+				weekThing.targetX = weekThing.x + 500;
 				grpWeekText.add(weekThing);
 
-				weekThing.screenCenter(X);
+				weekThing.x = 920;
+				weekThing.y = 50;
 				// weekThing.updateHitbox();
 
-				// Needs an offset thingie
 				if (isLocked)
 				{
 					var lock:FlxSprite = new FlxSprite(weekThing.width + 10 + weekThing.x);
@@ -142,6 +146,9 @@ class StoryMenuState extends MusicBeatState
 			}
 		}
 
+		
+
+
 		WeekData.setDirectoryFromWeek(loadedWeeks[0]);
 		var charArray:Array<String> = loadedWeeks[0].weekCharacters;
 		for (char in 0...3)
@@ -153,7 +160,7 @@ class StoryMenuState extends MusicBeatState
 		}
 
 		difficultySelectors = new FlxGroup();
-		add(difficultySelectors);
+		difficultySelectors.visible = false; //Hide diff select --doko
 
 		leftArrow = new FlxSprite(850, grpWeekText.members[0].y + 10);
 		leftArrow.antialiasing = ClientPrefs.data.antialiasing;
@@ -196,9 +203,17 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist.color = 0xFFe55777;
 		add(txtTracklist);
 
+		doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw');
+		doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+		doko.animation.play('idle');
+		doko.antialiasing = ClientPrefs.data.antialiasing;
+		doko.visible = true;
+		doko.screenCenter(Y);
+		doko.x += 500;
+		add(doko);
+
 		changeWeek();
 		changeDifficulty();
-		
 
 		super.create();
 	}
@@ -231,7 +246,7 @@ class StoryMenuState extends MusicBeatState
 			lerpScore = Math.floor(FlxMath.lerp(intendedScore, lerpScore, Math.exp(-elapsed * 30)));
 			if(Math.abs(intendedScore - lerpScore) < 10) lerpScore = intendedScore;
 	
-			scoreText.text = Language.getPhrase('week_score', 'WEEK SCORE: {1}', [lerpScore]);
+			scoreText.text = Language.getPhrase('high_score', 'HIGH SCORE: {1}', [lerpScore]);
 		}
 
 		// FlxG.watch.addQuick('font', scoreText.font);
@@ -301,9 +316,11 @@ class StoryMenuState extends MusicBeatState
 
 		super.update(elapsed);
 		
-		var offY:Float = grpWeekText.members[curWeek].targetY;
+		var offX:Float = grpWeekText.members[curWeek].targetX;
 		for (num => item in grpWeekText.members)
-			item.y = FlxMath.lerp(item.targetY - offY + 480, item.y, Math.exp(-elapsed * 10.2));
+		{
+			item.x = FlxMath.lerp(item.targetX - offX + 230, item.x, Math.exp(-elapsed * 10.2));
+		}
 
 		for (num => lock in grpLocks.members)
 			lock.y = grpWeekText.members[lock.ID].y + grpWeekText.members[lock.ID].height/2 - lock.height/2;
@@ -441,7 +458,7 @@ class StoryMenuState extends MusicBeatState
 		var unlocked:Bool = !weekIsLocked(leWeek.fileName);
 		for (num => item in grpWeekText.members)
 		{
-			item.alpha = 0.6;
+			item.alpha = 0;
 			if (num - curWeek == 0 && unlocked)
 				item.alpha = 1;
 		}
@@ -455,6 +472,13 @@ class StoryMenuState extends MusicBeatState
 			book.visible = true;
 			colorB.loadGraphic(Paths.image('color/debug'));
 			colorB.visible = true;
+
+			doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw');
+			doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+			doko.animation.play('idle');
+			doko.antialiasing = ClientPrefs.data.antialiasing;
+			doko.visible = true;
+			add(doko);
 		} else {
 			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName2));
 			bgSprite.visible = false; //Makes it so its always not visible --Doko
@@ -462,6 +486,14 @@ class StoryMenuState extends MusicBeatState
 			colorB.loadGraphic(Paths.image('color/' + assetName));
 			trace('DEBUG: assetName for bg is: ' + assetName);
 			colorB.visible = true;
+
+			doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw' );
+			doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+			doko.animation.play('idle');
+			doko.antialiasing = ClientPrefs.data.antialiasing;
+			doko.visible = true;
+			
+			add(doko);
 		}
 
 		PlayState.storyWeek = curWeek;
