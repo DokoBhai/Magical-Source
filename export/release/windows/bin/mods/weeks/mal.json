@@ -1,5 +1,5 @@
 {
-	"storyName": "Stitch",
+	"storyName": "Malificent",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
@@ -13,24 +13,24 @@
 	"hideStoryMode": false,
 	"songs": [
 		[
-			"experimental",
-			"face",
+			"hex",
+			"maleficient-icon",
 			[
 				146,
-				113,
-				253
+				0,
+				195
 			]
 		],
 		[
-			"outworld",
-			"face",
+			"malevolent",
+			"maleficient-icon",
 			[
 				146,
-				113,
-				253
+				0,
+				195
 			]
 		]
 	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }

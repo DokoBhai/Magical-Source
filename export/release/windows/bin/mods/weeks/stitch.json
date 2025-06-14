@@ -5,32 +5,32 @@
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
+	"songs": [
+		[
+			"experimental",
+			"stitch",
+			[
+				126,
+				60,
+				255
+			]
+		],
+		[
+			"outworld",
+			"stitch",
+			[
+				126,
+				60,
+				255
+			]
+		]
+	],
 	"weekCharacters": [
 		"bf",
 		"bf",
 		"gf"
 	],
 	"hideStoryMode": false,
-	"songs": [
-		[
-			"experimental",
-			"face",
-			[
-				146,
-				113,
-				253
-			]
-		],
-		[
-			"outworld",
-			"face",
-			[
-				146,
-				113,
-				253
-			]
-		]
-	],
-	"weekName": "Custom Week",
-	"hiddenUntilUnlocked": false
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
 }
