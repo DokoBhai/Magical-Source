@@ -31,10 +31,6 @@ class StoryMenuState extends MusicBeatState
 	var txtWeekTitle:FlxText;
 	var bgSprite:FlxSprite;
 
-	var offsetP:String;
-	var offset:String;
-	var offsetlines:String;
-
 	var doko:FlxSprite = new FlxSprite();
 	
 
@@ -88,8 +84,8 @@ class StoryMenuState extends MusicBeatState
 
 		scoreText = new FlxText(10, 10, 0, Language.getPhrase('high_score', 'HIGH SCORE: {1}', [lerpScore]), 36);
 		scoreText.setFormat(Paths.font("vcr.ttf"), 32);
-		scoreText.x += 900;
-		scoreText.y += 50;
+		scoreText.x += 700;
+		scoreText.y += 20;
 		scoreText.color = 0xFFFFFF00;
 		add(scoreText);
 
@@ -259,14 +255,14 @@ class StoryMenuState extends MusicBeatState
 		if (!movedBack && !selectedWeek)
 		{
 			var changeDiff = false;
-			if (controls.UI_UP_P)
+			if (controls.UI_LEFT_P)
 			{
 				changeWeek(-1);
 				FlxG.sound.play(Paths.sound('scrollMenu'));
 				changeDiff = true;
 			}
 
-			if (controls.UI_DOWN_P)
+			if (controls.UI_RIGHT_P)
 			{
 				changeWeek(1);
 				FlxG.sound.play(Paths.sound('scrollMenu'));
@@ -279,23 +275,6 @@ class StoryMenuState extends MusicBeatState
 				changeWeek(-FlxG.mouse.wheel);
 				changeDifficulty();
 			}
-
-			if (controls.UI_RIGHT)
-				rightArrow.animation.play('press')
-			else
-				rightArrow.animation.play('idle');
-
-			if (controls.UI_LEFT)
-				leftArrow.animation.play('press');
-			else
-				leftArrow.animation.play('idle');
-
-			if (controls.UI_RIGHT_P)
-				changeDifficulty(1);
-			else if (controls.UI_LEFT_P)
-				changeDifficulty(-1);
-			else if (changeDiff)
-				changeDifficulty();
 
 			if(FlxG.keys.justPressed.CONTROL)
 			{
@@ -469,8 +448,8 @@ class StoryMenuState extends MusicBeatState
 		}
 
 		bgSprite.visible = true;
-		var oof:Int = Std.parseInt(offsetlines[0].trim());
-		var oof2:Int = Std.parseInt(offsetlines[1].trim());
+		var oof:Int = 0;
+		var oof2:Int = 0;
 
 		var assetName:String = leWeek.fileName;
 		var assetName2:String = leWeek.weekBackground;
@@ -481,19 +460,14 @@ class StoryMenuState extends MusicBeatState
 			colorB.loadGraphic(Paths.image('color/debug'));
 			colorB.visible = true;
 
-			offsetP = Paths.file('images/characters/' + assetName);
-			offset = File.getContent(offsetP);
-			oof = Std.parseInt(lines[0].trim());
-			oof2 = Std.parseInt(lines[1].trim());
+			oof = 0;
+			oof2 = 0;
 
 			doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw');
 			doko.animation.addByPrefix('idle', 'Idle', 24, true);
 			doko.animation.play('idle');
 			doko.antialiasing = ClientPrefs.data.antialiasing;
 			doko.visible = true;
-			doko.x += oof;
-			doko.y += oof2;
-			add(doko);
 		} else {
 			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName2));
 			bgSprite.visible = false; //Makes it so its always not visible --Doko
@@ -502,13 +476,25 @@ class StoryMenuState extends MusicBeatState
 			trace('DEBUG: assetName for bg is: ' + assetName);
 			colorB.visible = true;
 
+			if (assetName == "mal") {
+				oof = -100;
+				oof2 = 0;
+				doko.flipX = false;
+			} else {
+				doko.flipX = true; 
+				oof = 750;
+				oof2 = 70;
+				
+			}
+
 			doko.frames = Paths.getSparrowAtlas('characters/m/' + assetName);
 			doko.animation.addByPrefix('idle', 'Idle', 24, true);
 			doko.animation.play('idle');
 			doko.antialiasing = ClientPrefs.data.antialiasing;
 			doko.visible = true;
+			doko.x = oof;
+			doko.y = oof2;
 			
-			add(doko);
 		}
 
 		PlayState.storyWeek = curWeek;
