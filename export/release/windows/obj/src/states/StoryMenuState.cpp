@@ -209,14 +209,14 @@ HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_54_create,"states.StoryMenuState",
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_72_create,"states.StoryMenuState","create",0xa5a271c1,"states.StoryMenuState.create","states/StoryMenuState.hx",72,0xbd7f4e34)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_73_create,"states.StoryMenuState","create",0xa5a271c1,"states.StoryMenuState.create","states/StoryMenuState.hx",73,0xbd7f4e34)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_125_create,"states.StoryMenuState","create",0xa5a271c1,"states.StoryMenuState.create","states/StoryMenuState.hx",125,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_221_closeSubState,"states.StoryMenuState","closeSubState",0x7f462024,"states.StoryMenuState.closeSubState","states/StoryMenuState.hx",221,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_228_update,"states.StoryMenuState","update",0xb09890ce,"states.StoryMenuState.update","states/StoryMenuState.hx",228,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_335_selectWeek,"states.StoryMenuState","selectWeek",0x1c612655,"states.StoryMenuState.selectWeek","states/StoryMenuState.hx",335,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_393_selectWeek,"states.StoryMenuState","selectWeek",0x1c612655,"states.StoryMenuState.selectWeek","states/StoryMenuState.hx",393,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_407_changeDifficulty,"states.StoryMenuState","changeDifficulty",0xaeec22d0,"states.StoryMenuState.changeDifficulty","states/StoryMenuState.hx",407,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_443_changeWeek,"states.StoryMenuState","changeWeek",0x880ee6c9,"states.StoryMenuState.changeWeek","states/StoryMenuState.hx",443,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_518_weekIsLocked,"states.StoryMenuState","weekIsLocked",0xec61bd2d,"states.StoryMenuState.weekIsLocked","states/StoryMenuState.hx",518,0xbd7f4e34)
-HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_524_updateText,"states.StoryMenuState","updateText",0x647f089b,"states.StoryMenuState.updateText","states/StoryMenuState.hx",524,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_222_closeSubState,"states.StoryMenuState","closeSubState",0x7f462024,"states.StoryMenuState.closeSubState","states/StoryMenuState.hx",222,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_229_update,"states.StoryMenuState","update",0xb09890ce,"states.StoryMenuState.update","states/StoryMenuState.hx",229,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_336_selectWeek,"states.StoryMenuState","selectWeek",0x1c612655,"states.StoryMenuState.selectWeek","states/StoryMenuState.hx",336,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_394_selectWeek,"states.StoryMenuState","selectWeek",0x1c612655,"states.StoryMenuState.selectWeek","states/StoryMenuState.hx",394,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_408_changeDifficulty,"states.StoryMenuState","changeDifficulty",0xaeec22d0,"states.StoryMenuState.changeDifficulty","states/StoryMenuState.hx",408,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_444_changeWeek,"states.StoryMenuState","changeWeek",0x880ee6c9,"states.StoryMenuState.changeWeek","states/StoryMenuState.hx",444,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_519_weekIsLocked,"states.StoryMenuState","weekIsLocked",0xec61bd2d,"states.StoryMenuState.weekIsLocked","states/StoryMenuState.hx",519,0xbd7f4e34)
+HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_525_updateText,"states.StoryMenuState","updateText",0x647f089b,"states.StoryMenuState.updateText","states/StoryMenuState.hx",525,0xbd7f4e34)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_20_boot,"states.StoryMenuState","boot",0x2c33e3b7,"states.StoryMenuState.boot","states/StoryMenuState.hx",20,0xbd7f4e34)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_28_boot,"states.StoryMenuState","boot",0x2c33e3b7,"states.StoryMenuState.boot","states/StoryMenuState.hx",28,0xbd7f4e34)
 HX_LOCAL_STACK_FRAME(_hx_pos_bb97520c7169a052_37_boot,"states.StoryMenuState","boot",0x2c33e3b7,"states.StoryMenuState.boot","states/StoryMenuState.hx",37,0xbd7f4e34)
@@ -224,11 +224,11 @@ namespace states{
 
 void StoryMenuState_obj::__construct(){
             	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_18_new)
-HXLINE( 440)		this->intendedScore = 0;
-HXLINE( 439)		this->lerpScore = 49324858;
-HXLINE( 331)		this->stopspamming = false;
-HXLINE( 330)		this->selectedWeek = false;
-HXLINE( 329)		this->movedBack = false;
+HXLINE( 441)		this->intendedScore = 0;
+HXLINE( 440)		this->lerpScore = 49324858;
+HXLINE( 332)		this->stopspamming = false;
+HXLINE( 331)		this->selectedWeek = false;
+HXLINE( 330)		this->movedBack = false;
 HXLINE(  51)		this->loadedWeeks = ::Array_obj< ::Dynamic>::__new(0);
 HXLINE(  34)		this->doko =  ::flixel::FlxSprite_obj::__alloc( HX_CTX ,null(),null(),null());
 HXLINE(  29)		this->curDifficulty = 1;
@@ -556,17 +556,17 @@ HXLINE( 203)		this->txtTracklist->set_color(-1747081);
 HXLINE( 204)		this->add(this->txtTracklist);
 HXLINE( 206)		 ::flixel::FlxSprite _hx_tmp11 = this->doko;
 HXDLIN( 206)		::String parentFolder1 = null();
-HXDLIN( 206)		if ((HX_("characters/m/BOYFRIEND bw",12,44,fd,5c).indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
-HXLINE( 206)			::haxe::Log_obj::trace(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c), ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 206)		if ((HX_("characters/m/pooh",ff,56,35,04).indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
+HXLINE( 206)			::haxe::Log_obj::trace(HX_("characters/m/pooh",ff,56,35,04), ::Dynamic(::hx::Anon_obj::Create(5)
             				->setFixed(0,HX_("className",a3,92,3d,dc),HX_("backend.Paths",34,17,99,92))
             				->setFixed(1,HX_("customParams",d7,51,18,ed),::cpp::VirtualArray_obj::__new(2)->init(0,parentFolder1)->init(1,true))
             				->setFixed(2,HX_("methodName",cc,19,0f,12),HX_("getSparrowAtlas",55,ab,b7,a7))
             				->setFixed(3,HX_("fileName",e7,5a,43,62),HX_("source/backend/Paths.hx",ff,43,8c,3d))
             				->setFixed(4,HX_("lineNumber",dd,81,22,76),372)));
             		}
-HXDLIN( 206)		 ::flixel::graphics::FlxGraphic imageLoaded1 = ::backend::Paths_obj::image(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c),parentFolder1,true);
+HXDLIN( 206)		 ::flixel::graphics::FlxGraphic imageLoaded1 = ::backend::Paths_obj::image(HX_("characters/m/pooh",ff,56,35,04),parentFolder1,true);
 HXDLIN( 206)		bool xmlExists1 = false;
-HXDLIN( 206)		::String xml1 = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c)) + HX_(".xml",69,3e,c3,1e)));
+HXDLIN( 206)		::String xml1 = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("characters/m/pooh",ff,56,35,04)) + HX_(".xml",69,3e,c3,1e)));
 HXDLIN( 206)		if (::sys::FileSystem_obj::exists(xml1)) {
 HXLINE( 378)			xmlExists1 = true;
             		}
@@ -575,7 +575,7 @@ HXDLIN( 206)		if (xmlExists1) {
 HXLINE( 206)			_hx_tmp12 = ::sys::io::File_obj::getContent(xml1);
             		}
             		else {
-HXLINE( 206)			::String key4 = (HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c));
+HXLINE( 206)			::String key4 = (HX_("images/",77,50,74,c1) + HX_("characters/m/pooh",ff,56,35,04));
 HXDLIN( 206)			::Dynamic this6 = ::backend::Language_obj::phrases;
 HXDLIN( 206)			::String str5 = ( ( ::haxe::ds::StringMap)(this6) )->get_string(::StringTools_obj::trim(key4).toLowerCase());
 HXDLIN( 206)			if (::hx::IsNotNull( str5 )) {
@@ -584,7 +584,7 @@ HXLINE(  82)				key4 = str5;
 HXLINE( 206)			_hx_tmp12 = ::backend::Paths_obj::getPath((key4 + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),parentFolder1,null());
             		}
 HXDLIN( 206)		_hx_tmp11->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(imageLoaded1,_hx_tmp12));
-HXLINE( 207)		this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("BF idle dance",03,fa,cc,7f),24,true,null(),null());
+HXLINE( 207)		this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Idle",34,d3,8c,30),24,true,null(),null());
 HXLINE( 208)		this->doko->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
 HXLINE( 209)		this->doko->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
 HXLINE( 210)		this->doko->set_visible(true);
@@ -615,343 +615,344 @@ HXDLIN( 211)				_this1->set_y(((( (Float)(_hx_tmp16) ) - _this1->get_height()) /
             			}
             		}
 HXLINE( 212)		 ::flixel::FlxSprite fh2 = this->doko;
-HXDLIN( 212)		fh2->set_x((fh2->x + 500));
-HXLINE( 213)		this->add(this->doko);
-HXLINE( 215)		this->changeWeek(null());
-HXLINE( 216)		this->changeDifficulty(null());
-HXLINE( 218)		this->super::create();
+HXDLIN( 212)		fh2->set_x((fh2->x + 800));
+HXLINE( 213)		this->doko->set_flipX(true);
+HXLINE( 214)		this->add(this->doko);
+HXLINE( 216)		this->changeWeek(null());
+HXLINE( 217)		this->changeDifficulty(null());
+HXLINE( 219)		this->super::create();
             	}
 
 
 void StoryMenuState_obj::closeSubState(){
-            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_221_closeSubState)
-HXLINE( 222)		this->persistentUpdate = true;
-HXLINE( 223)		this->changeWeek(null());
-HXLINE( 224)		this->super::closeSubState();
+            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_222_closeSubState)
+HXLINE( 223)		this->persistentUpdate = true;
+HXLINE( 224)		this->changeWeek(null());
+HXLINE( 225)		this->super::closeSubState();
             	}
 
 
 void StoryMenuState_obj::update(Float elapsed){
-            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_228_update)
-HXLINE( 229)		this->colorB->setGraphicSize(::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
-HXLINE( 230)		{
-HXLINE( 230)			 ::flixel::FlxSprite _this = this->colorB;
-HXDLIN( 230)			int axes = 17;
-HXDLIN( 230)			bool _hx_tmp;
-HXDLIN( 230)			if ((axes != 1)) {
-HXLINE( 230)				_hx_tmp = (axes == 17);
+            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_229_update)
+HXLINE( 230)		this->colorB->setGraphicSize(::flixel::FlxG_obj::width,::flixel::FlxG_obj::height);
+HXLINE( 231)		{
+HXLINE( 231)			 ::flixel::FlxSprite _this = this->colorB;
+HXDLIN( 231)			int axes = 17;
+HXDLIN( 231)			bool _hx_tmp;
+HXDLIN( 231)			if ((axes != 1)) {
+HXLINE( 231)				_hx_tmp = (axes == 17);
             			}
             			else {
-HXLINE( 230)				_hx_tmp = true;
+HXLINE( 231)				_hx_tmp = true;
             			}
-HXDLIN( 230)			if (_hx_tmp) {
-HXLINE( 230)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
-HXDLIN( 230)				_this->set_x(((( (Float)(_hx_tmp1) ) - _this->get_width()) / ( (Float)(2) )));
+HXDLIN( 231)			if (_hx_tmp) {
+HXLINE( 231)				int _hx_tmp1 = ::flixel::FlxG_obj::width;
+HXDLIN( 231)				_this->set_x(((( (Float)(_hx_tmp1) ) - _this->get_width()) / ( (Float)(2) )));
             			}
-HXDLIN( 230)			bool _hx_tmp2;
-HXDLIN( 230)			if ((axes != 16)) {
-HXLINE( 230)				_hx_tmp2 = (axes == 17);
+HXDLIN( 231)			bool _hx_tmp2;
+HXDLIN( 231)			if ((axes != 16)) {
+HXLINE( 231)				_hx_tmp2 = (axes == 17);
             			}
             			else {
-HXLINE( 230)				_hx_tmp2 = true;
+HXLINE( 231)				_hx_tmp2 = true;
             			}
-HXDLIN( 230)			if (_hx_tmp2) {
-HXLINE( 230)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
-HXDLIN( 230)				_this->set_y(((( (Float)(_hx_tmp3) ) - _this->get_height()) / ( (Float)(2) )));
+HXDLIN( 231)			if (_hx_tmp2) {
+HXLINE( 231)				int _hx_tmp3 = ::flixel::FlxG_obj::height;
+HXDLIN( 231)				_this->set_y(((( (Float)(_hx_tmp3) ) - _this->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE( 231)		if ((::backend::WeekData_obj::weeksList->length < 1)) {
-HXLINE( 233)			bool _hx_tmp4;
-HXDLIN( 233)			bool _hx_tmp5;
-HXDLIN( 233)			if (this->get_controls()->get_BACK()) {
-HXLINE( 233)				_hx_tmp5 = !(this->movedBack);
+HXLINE( 232)		if ((::backend::WeekData_obj::weeksList->length < 1)) {
+HXLINE( 234)			bool _hx_tmp4;
+HXDLIN( 234)			bool _hx_tmp5;
+HXDLIN( 234)			if (this->get_controls()->get_BACK()) {
+HXLINE( 234)				_hx_tmp5 = !(this->movedBack);
             			}
             			else {
-HXLINE( 233)				_hx_tmp5 = false;
+HXLINE( 234)				_hx_tmp5 = false;
             			}
-HXDLIN( 233)			if (_hx_tmp5) {
-HXLINE( 233)				_hx_tmp4 = !(this->selectedWeek);
+HXDLIN( 234)			if (_hx_tmp5) {
+HXLINE( 234)				_hx_tmp4 = !(this->selectedWeek);
             			}
             			else {
-HXLINE( 233)				_hx_tmp4 = false;
+HXLINE( 234)				_hx_tmp4 = false;
             			}
-HXDLIN( 233)			if (_hx_tmp4) {
-HXLINE( 235)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp6 = ::flixel::FlxG_obj::sound;
-HXDLIN( 235)				_hx_tmp6->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
-HXLINE( 236)				this->movedBack = true;
-HXLINE( 237)				::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ));
+HXDLIN( 234)			if (_hx_tmp4) {
+HXLINE( 236)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp6 = ::flixel::FlxG_obj::sound;
+HXDLIN( 236)				_hx_tmp6->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 237)				this->movedBack = true;
+HXLINE( 238)				::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ));
             			}
-HXLINE( 239)			this->super::update(elapsed);
-HXLINE( 240)			return;
+HXLINE( 240)			this->super::update(elapsed);
+HXLINE( 241)			return;
             		}
-HXLINE( 244)		if ((this->intendedScore != this->lerpScore)) {
-HXLINE( 246)			Float a = ( (Float)(this->intendedScore) );
-HXDLIN( 246)			this->lerpScore = ::Math_obj::floor((a + (::Math_obj::exp((-(elapsed) * ( (Float)(30) ))) * (( (Float)(this->lerpScore) ) - a))));
-HXLINE( 247)			if ((::Math_obj::abs(( (Float)((this->intendedScore - this->lerpScore)) )) < 10)) {
-HXLINE( 247)				this->lerpScore = this->intendedScore;
+HXLINE( 245)		if ((this->intendedScore != this->lerpScore)) {
+HXLINE( 247)			Float a = ( (Float)(this->intendedScore) );
+HXDLIN( 247)			this->lerpScore = ::Math_obj::floor((a + (::Math_obj::exp((-(elapsed) * ( (Float)(30) ))) * (( (Float)(this->lerpScore) ) - a))));
+HXLINE( 248)			if ((::Math_obj::abs(( (Float)((this->intendedScore - this->lerpScore)) )) < 10)) {
+HXLINE( 248)				this->lerpScore = this->intendedScore;
             			}
-HXLINE( 249)			 ::flixel::text::FlxText _hx_tmp7 = this->scoreText;
-HXDLIN( 249)			::cpp::VirtualArray values = ::cpp::VirtualArray_obj::__new(1)->init(0,this->lerpScore);
-HXDLIN( 249)			::Dynamic this1 = ::backend::Language_obj::phrases;
-HXDLIN( 249)			 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
-HXDLIN( 249)			::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(HX_("high_score",75,a7,09,00),HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
-HXDLIN( 249)			if (::hx::IsNull( str )) {
+HXLINE( 250)			 ::flixel::text::FlxText _hx_tmp7 = this->scoreText;
+HXDLIN( 250)			::cpp::VirtualArray values = ::cpp::VirtualArray_obj::__new(1)->init(0,this->lerpScore);
+HXDLIN( 250)			::Dynamic this1 = ::backend::Language_obj::phrases;
+HXDLIN( 250)			 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
+HXDLIN( 250)			::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(HX_("high_score",75,a7,09,00),HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
+HXDLIN( 250)			if (::hx::IsNull( str )) {
 HXLINE(  62)				str = HX_("HIGH SCORE: {1}",0d,39,5f,f3);
             			}
-HXLINE( 249)			if (::hx::IsNull( str )) {
+HXLINE( 250)			if (::hx::IsNull( str )) {
 HXLINE(  68)				str = HX_("high_score",75,a7,09,00);
             			}
-HXLINE( 249)			if (::hx::IsNotNull( values )) {
-HXLINE( 249)				int _g_current = 0;
-HXDLIN( 249)				::cpp::VirtualArray _g_array = values;
-HXDLIN( 249)				while((_g_current < _g_array->get_length())){
-HXLINE( 249)					 ::Dynamic _g_value = _g_array->__get(_g_current);
-HXDLIN( 249)					_g_current = (_g_current + 1);
-HXDLIN( 249)					int _g_key = (_g_current - 1);
-HXDLIN( 249)					int num = _g_key;
-HXDLIN( 249)					 ::Dynamic value = _g_value;
+HXLINE( 250)			if (::hx::IsNotNull( values )) {
+HXLINE( 250)				int _g_current = 0;
+HXDLIN( 250)				::cpp::VirtualArray _g_array = values;
+HXDLIN( 250)				while((_g_current < _g_array->get_length())){
+HXLINE( 250)					 ::Dynamic _g_value = _g_array->__get(_g_current);
+HXDLIN( 250)					_g_current = (_g_current + 1);
+HXDLIN( 250)					int _g_key = (_g_current - 1);
+HXDLIN( 250)					int num = _g_key;
+HXDLIN( 250)					 ::Dynamic value = _g_value;
 HXLINE(  72)					str = ::StringTools_obj::replace(str,((HX_("{",7b,00,00,00) + (num + 1)) + HX_("}",7d,00,00,00)),( (::String)(value) ));
             				}
             			}
-HXLINE( 249)			_hx_tmp7->set_text(str);
+HXLINE( 250)			_hx_tmp7->set_text(str);
             		}
-HXLINE( 254)		bool _hx_tmp8;
-HXDLIN( 254)		if (!(this->movedBack)) {
-HXLINE( 254)			_hx_tmp8 = !(this->selectedWeek);
+HXLINE( 255)		bool _hx_tmp8;
+HXDLIN( 255)		if (!(this->movedBack)) {
+HXLINE( 255)			_hx_tmp8 = !(this->selectedWeek);
             		}
             		else {
-HXLINE( 254)			_hx_tmp8 = false;
+HXLINE( 255)			_hx_tmp8 = false;
             		}
-HXDLIN( 254)		if (_hx_tmp8) {
-HXLINE( 256)			bool changeDiff = false;
-HXLINE( 257)			if (this->get_controls()->get_UI_UP_P()) {
-HXLINE( 259)				this->changeWeek(-1);
-HXLINE( 260)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp9 = ::flixel::FlxG_obj::sound;
-HXDLIN( 260)				_hx_tmp9->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),null(),null(),null(),null(),null());
-HXLINE( 261)				changeDiff = true;
+HXDLIN( 255)		if (_hx_tmp8) {
+HXLINE( 257)			bool changeDiff = false;
+HXLINE( 258)			if (this->get_controls()->get_UI_UP_P()) {
+HXLINE( 260)				this->changeWeek(-1);
+HXLINE( 261)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp9 = ::flixel::FlxG_obj::sound;
+HXDLIN( 261)				_hx_tmp9->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 262)				changeDiff = true;
             			}
-HXLINE( 264)			if (this->get_controls()->get_UI_DOWN_P()) {
-HXLINE( 266)				this->changeWeek(1);
-HXLINE( 267)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp10 = ::flixel::FlxG_obj::sound;
-HXDLIN( 267)				_hx_tmp10->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),null(),null(),null(),null(),null());
-HXLINE( 268)				changeDiff = true;
+HXLINE( 265)			if (this->get_controls()->get_UI_DOWN_P()) {
+HXLINE( 267)				this->changeWeek(1);
+HXLINE( 268)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp10 = ::flixel::FlxG_obj::sound;
+HXDLIN( 268)				_hx_tmp10->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 269)				changeDiff = true;
             			}
-HXLINE( 271)			if ((::flixel::FlxG_obj::mouse->wheel != 0)) {
-HXLINE( 273)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp11 = ::flixel::FlxG_obj::sound;
-HXDLIN( 273)				_hx_tmp11->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),((Float)0.4),null(),null(),null(),null());
-HXLINE( 274)				this->changeWeek(-(::flixel::FlxG_obj::mouse->wheel));
-HXLINE( 275)				this->changeDifficulty(null());
+HXLINE( 272)			if ((::flixel::FlxG_obj::mouse->wheel != 0)) {
+HXLINE( 274)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp11 = ::flixel::FlxG_obj::sound;
+HXDLIN( 274)				_hx_tmp11->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("scrollMenu",4c,d4,18,06)),null(),true,null()),((Float)0.4),null(),null(),null(),null());
+HXLINE( 275)				this->changeWeek(-(::flixel::FlxG_obj::mouse->wheel));
+HXLINE( 276)				this->changeDifficulty(null());
             			}
-HXLINE( 278)			if (this->get_controls()->get_UI_RIGHT()) {
-HXLINE( 279)				this->rightArrow->animation->play(HX_("press",83,53,88,c8),null(),null(),null());
-            			}
-            			else {
-HXLINE( 281)				this->rightArrow->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
-            			}
-HXLINE( 283)			if (this->get_controls()->get_UI_LEFT()) {
-HXLINE( 284)				this->leftArrow->animation->play(HX_("press",83,53,88,c8),null(),null(),null());
+HXLINE( 279)			if (this->get_controls()->get_UI_RIGHT()) {
+HXLINE( 280)				this->rightArrow->animation->play(HX_("press",83,53,88,c8),null(),null(),null());
             			}
             			else {
-HXLINE( 286)				this->leftArrow->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+HXLINE( 282)				this->rightArrow->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
             			}
-HXLINE( 288)			if (this->get_controls()->get_UI_RIGHT_P()) {
-HXLINE( 289)				this->changeDifficulty(1);
+HXLINE( 284)			if (this->get_controls()->get_UI_LEFT()) {
+HXLINE( 285)				this->leftArrow->animation->play(HX_("press",83,53,88,c8),null(),null(),null());
             			}
             			else {
-HXLINE( 290)				if (this->get_controls()->get_UI_LEFT_P()) {
-HXLINE( 291)					this->changeDifficulty(-1);
+HXLINE( 287)				this->leftArrow->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+            			}
+HXLINE( 289)			if (this->get_controls()->get_UI_RIGHT_P()) {
+HXLINE( 290)				this->changeDifficulty(1);
+            			}
+            			else {
+HXLINE( 291)				if (this->get_controls()->get_UI_LEFT_P()) {
+HXLINE( 292)					this->changeDifficulty(-1);
             				}
             				else {
-HXLINE( 292)					if (changeDiff) {
-HXLINE( 293)						this->changeDifficulty(null());
+HXLINE( 293)					if (changeDiff) {
+HXLINE( 294)						this->changeDifficulty(null());
             					}
             				}
             			}
-HXLINE( 295)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
-HXDLIN( 295)			if (_this1->keyManager->checkStatusUnsafe(17,_this1->status)) {
-HXLINE( 297)				this->persistentUpdate = false;
-HXLINE( 298)				this->openSubState( ::options::GameplayChangersSubstate_obj::__alloc( HX_CTX ));
+HXLINE( 296)			 ::flixel::input::keyboard::FlxKeyList _this1 = ( ( ::flixel::input::keyboard::FlxKeyList)(::flixel::FlxG_obj::keys->justPressed) );
+HXDLIN( 296)			if (_this1->keyManager->checkStatusUnsafe(17,_this1->status)) {
+HXLINE( 298)				this->persistentUpdate = false;
+HXLINE( 299)				this->openSubState( ::options::GameplayChangersSubstate_obj::__alloc( HX_CTX ));
             			}
             			else {
-HXLINE( 300)				if (this->get_controls()->get_RESET()) {
-HXLINE( 302)					this->persistentUpdate = false;
-HXLINE( 303)					this->openSubState( ::substates::ResetScoreSubState_obj::__alloc( HX_CTX ,HX_("",00,00,00,00),this->curDifficulty,HX_("",00,00,00,00),::states::StoryMenuState_obj::curWeek));
+HXLINE( 301)				if (this->get_controls()->get_RESET()) {
+HXLINE( 303)					this->persistentUpdate = false;
+HXLINE( 304)					this->openSubState( ::substates::ResetScoreSubState_obj::__alloc( HX_CTX ,HX_("",00,00,00,00),this->curDifficulty,HX_("",00,00,00,00),::states::StoryMenuState_obj::curWeek));
             				}
             				else {
-HXLINE( 306)					if (this->get_controls()->get_ACCEPT()) {
-HXLINE( 307)						this->selectWeek();
+HXLINE( 307)					if (this->get_controls()->get_ACCEPT()) {
+HXLINE( 308)						this->selectWeek();
             					}
             				}
             			}
             		}
-HXLINE( 310)		bool _hx_tmp12;
-HXDLIN( 310)		bool _hx_tmp13;
-HXDLIN( 310)		if (this->get_controls()->get_BACK()) {
-HXLINE( 310)			_hx_tmp13 = !(this->movedBack);
+HXLINE( 311)		bool _hx_tmp12;
+HXDLIN( 311)		bool _hx_tmp13;
+HXDLIN( 311)		if (this->get_controls()->get_BACK()) {
+HXLINE( 311)			_hx_tmp13 = !(this->movedBack);
             		}
             		else {
-HXLINE( 310)			_hx_tmp13 = false;
+HXLINE( 311)			_hx_tmp13 = false;
             		}
-HXDLIN( 310)		if (_hx_tmp13) {
-HXLINE( 310)			_hx_tmp12 = !(this->selectedWeek);
+HXDLIN( 311)		if (_hx_tmp13) {
+HXLINE( 311)			_hx_tmp12 = !(this->selectedWeek);
             		}
             		else {
-HXLINE( 310)			_hx_tmp12 = false;
+HXLINE( 311)			_hx_tmp12 = false;
             		}
-HXDLIN( 310)		if (_hx_tmp12) {
-HXLINE( 312)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp14 = ::flixel::FlxG_obj::sound;
-HXDLIN( 312)			_hx_tmp14->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
-HXLINE( 313)			this->movedBack = true;
-HXLINE( 314)			::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ));
+HXDLIN( 311)		if (_hx_tmp12) {
+HXLINE( 313)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp14 = ::flixel::FlxG_obj::sound;
+HXDLIN( 313)			_hx_tmp14->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 314)			this->movedBack = true;
+HXLINE( 315)			::backend::MusicBeatState_obj::switchState( ::states::MainMenuState_obj::__alloc( HX_CTX ));
             		}
-HXLINE( 317)		this->super::update(elapsed);
-HXLINE( 319)		Float offX = Dynamic( this->grpWeekText->members->__get(::states::StoryMenuState_obj::curWeek)).StaticCast<  ::objects::MenuItem >()->targetX;
-HXLINE( 320)		{
-HXLINE( 320)			int _g_current1 = 0;
-HXDLIN( 320)			::Array< ::Dynamic> _g_array1 = this->grpWeekText->members;
-HXDLIN( 320)			while((_g_current1 < _g_array1->length)){
-HXLINE( 320)				 ::objects::MenuItem _g_value1 = _g_array1->__get(_g_current1).StaticCast<  ::objects::MenuItem >();
-HXDLIN( 320)				_g_current1 = (_g_current1 + 1);
-HXDLIN( 320)				int _g_key1 = (_g_current1 - 1);
-HXDLIN( 320)				int num1 = _g_key1;
-HXDLIN( 320)				 ::objects::MenuItem item = _g_value1;
-HXLINE( 322)				Float a1 = ((item->targetX - offX) + 230);
-HXDLIN( 322)				item->set_x((a1 + (::Math_obj::exp((-(elapsed) * ((Float)10.2))) * (item->x - a1))));
+HXLINE( 318)		this->super::update(elapsed);
+HXLINE( 320)		Float offX = Dynamic( this->grpWeekText->members->__get(::states::StoryMenuState_obj::curWeek)).StaticCast<  ::objects::MenuItem >()->targetX;
+HXLINE( 321)		{
+HXLINE( 321)			int _g_current1 = 0;
+HXDLIN( 321)			::Array< ::Dynamic> _g_array1 = this->grpWeekText->members;
+HXDLIN( 321)			while((_g_current1 < _g_array1->length)){
+HXLINE( 321)				 ::objects::MenuItem _g_value1 = _g_array1->__get(_g_current1).StaticCast<  ::objects::MenuItem >();
+HXDLIN( 321)				_g_current1 = (_g_current1 + 1);
+HXDLIN( 321)				int _g_key1 = (_g_current1 - 1);
+HXDLIN( 321)				int num1 = _g_key1;
+HXDLIN( 321)				 ::objects::MenuItem item = _g_value1;
+HXLINE( 323)				Float a1 = ((item->targetX - offX) + 230);
+HXDLIN( 323)				item->set_x((a1 + (::Math_obj::exp((-(elapsed) * ((Float)10.2))) * (item->x - a1))));
             			}
             		}
-HXLINE( 325)		{
-HXLINE( 325)			int _g_current2 = 0;
-HXDLIN( 325)			::Array< ::Dynamic> _g_array2 = this->grpLocks->members;
-HXDLIN( 325)			while((_g_current2 < _g_array2->length)){
-HXLINE( 325)				 ::flixel::FlxSprite _g_value2 = _g_array2->__get(_g_current2).StaticCast<  ::flixel::FlxSprite >();
-HXDLIN( 325)				_g_current2 = (_g_current2 + 1);
-HXDLIN( 325)				int _g_key2 = (_g_current2 - 1);
-HXDLIN( 325)				int num2 = _g_key2;
-HXDLIN( 325)				 ::flixel::FlxSprite lock = _g_value2;
-HXLINE( 326)				Float _hx_tmp15 = Dynamic( this->grpWeekText->members->__get(lock->ID)).StaticCast<  ::objects::MenuItem >()->y;
-HXDLIN( 326)				Float _hx_tmp16 = (_hx_tmp15 + (Dynamic( this->grpWeekText->members->__get(lock->ID)).StaticCast<  ::objects::MenuItem >()->get_height() / ( (Float)(2) )));
-HXDLIN( 326)				lock->set_y((_hx_tmp16 - (lock->get_height() / ( (Float)(2) ))));
+HXLINE( 326)		{
+HXLINE( 326)			int _g_current2 = 0;
+HXDLIN( 326)			::Array< ::Dynamic> _g_array2 = this->grpLocks->members;
+HXDLIN( 326)			while((_g_current2 < _g_array2->length)){
+HXLINE( 326)				 ::flixel::FlxSprite _g_value2 = _g_array2->__get(_g_current2).StaticCast<  ::flixel::FlxSprite >();
+HXDLIN( 326)				_g_current2 = (_g_current2 + 1);
+HXDLIN( 326)				int _g_key2 = (_g_current2 - 1);
+HXDLIN( 326)				int num2 = _g_key2;
+HXDLIN( 326)				 ::flixel::FlxSprite lock = _g_value2;
+HXLINE( 327)				Float _hx_tmp15 = Dynamic( this->grpWeekText->members->__get(lock->ID)).StaticCast<  ::objects::MenuItem >()->y;
+HXDLIN( 327)				Float _hx_tmp16 = (_hx_tmp15 + (Dynamic( this->grpWeekText->members->__get(lock->ID)).StaticCast<  ::objects::MenuItem >()->get_height() / ( (Float)(2) )));
+HXDLIN( 327)				lock->set_y((_hx_tmp16 - (lock->get_height() / ( (Float)(2) ))));
             			}
             		}
             	}
 
 
 void StoryMenuState_obj::selectWeek(){
-            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_335_selectWeek)
-HXDLIN( 335)		if (!(this->weekIsLocked(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName))) {
+            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_336_selectWeek)
+HXDLIN( 336)		if (!(this->weekIsLocked(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName))) {
             			HX_BEGIN_LOCAL_FUNC_S0(::hx::LocalFunc,_hx_Closure_0) HXARGC(1)
             			void _hx_run( ::flixel::util::FlxTimer tmr){
-            				HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_393_selectWeek)
-HXLINE( 395)				::backend::MusicBeatState_obj::switchState(::states::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::states::PlayState_obj::__alloc( HX_CTX )) ),true,true));
-HXLINE( 396)				::states::FreeplayState_obj::destroyFreeplayVocals();
+            				HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_394_selectWeek)
+HXLINE( 396)				::backend::MusicBeatState_obj::switchState(::states::LoadingState_obj::getNextState(( ( ::flixel::FlxState)( ::states::PlayState_obj::__alloc( HX_CTX )) ),true,true));
+HXLINE( 397)				::states::FreeplayState_obj::destroyFreeplayVocals();
             			}
             			HX_END_LOCAL_FUNC1((void))
 
-HXLINE( 338)			::Array< ::String > songArray = ::Array_obj< ::String >::__new(0);
-HXLINE( 339)			::cpp::VirtualArray leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->songs;
-HXLINE( 340)			{
-HXLINE( 340)				int _g = 0;
-HXDLIN( 340)				int _g1 = leWeek->get_length();
-HXDLIN( 340)				while((_g < _g1)){
-HXLINE( 340)					_g = (_g + 1);
-HXDLIN( 340)					int i = (_g - 1);
-HXLINE( 341)					songArray->push(leWeek->__get(i)->__GetItem(0));
+HXLINE( 339)			::Array< ::String > songArray = ::Array_obj< ::String >::__new(0);
+HXLINE( 340)			::cpp::VirtualArray leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->songs;
+HXLINE( 341)			{
+HXLINE( 341)				int _g = 0;
+HXDLIN( 341)				int _g1 = leWeek->get_length();
+HXDLIN( 341)				while((_g < _g1)){
+HXLINE( 341)					_g = (_g + 1);
+HXDLIN( 341)					int i = (_g - 1);
+HXLINE( 342)					songArray->push(leWeek->__get(i)->__GetItem(0));
             				}
             			}
-HXLINE( 345)			try {
+HXLINE( 346)			try {
             				HX_STACK_CATCHABLE( ::Dynamic, 0);
-HXLINE( 347)				::states::PlayState_obj::storyPlaylist = songArray;
-HXLINE( 348)				::states::PlayState_obj::isStoryMode = true;
-HXLINE( 349)				this->selectedWeek = true;
-HXLINE( 351)				 ::Dynamic num = this->curDifficulty;
-HXDLIN( 351)				if (::hx::IsNull( num )) {
-HXLINE( 351)					num = ::states::PlayState_obj::storyDifficulty;
+HXLINE( 348)				::states::PlayState_obj::storyPlaylist = songArray;
+HXLINE( 349)				::states::PlayState_obj::isStoryMode = true;
+HXLINE( 350)				this->selectedWeek = true;
+HXLINE( 352)				 ::Dynamic num = this->curDifficulty;
+HXDLIN( 352)				if (::hx::IsNull( num )) {
+HXLINE( 352)					num = ::states::PlayState_obj::storyDifficulty;
             				}
-HXDLIN( 351)				::String filePostfix = ::backend::Difficulty_obj::list->__get(( (int)(num) ));
-HXDLIN( 351)				bool _hx_tmp;
-HXDLIN( 351)				if (::hx::IsNotNull( filePostfix )) {
-HXLINE( 351)					 ::EReg invalidChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
-HXDLIN( 351)					 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
-HXDLIN( 351)					::String _hx_tmp1 = ::StringTools_obj::trim(hideChars->replace(invalidChars->replace(filePostfix,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase();
-HXDLIN( 351)					 ::EReg invalidChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
-HXDLIN( 351)					 ::EReg hideChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
-HXDLIN( 351)					_hx_tmp = (_hx_tmp1 != ::StringTools_obj::trim(hideChars1->replace(invalidChars1->replace(::backend::Difficulty_obj::defaultDifficulty,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase());
-            				}
-            				else {
-HXLINE( 351)					_hx_tmp = false;
-            				}
-HXDLIN( 351)				if (_hx_tmp) {
-HXLINE( 351)					filePostfix = (HX_("-",2d,00,00,00) + filePostfix);
+HXDLIN( 352)				::String filePostfix = ::backend::Difficulty_obj::list->__get(( (int)(num) ));
+HXDLIN( 352)				bool _hx_tmp;
+HXDLIN( 352)				if (::hx::IsNotNull( filePostfix )) {
+HXLINE( 352)					 ::EReg invalidChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
+HXDLIN( 352)					 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
+HXDLIN( 352)					::String _hx_tmp1 = ::StringTools_obj::trim(hideChars->replace(invalidChars->replace(filePostfix,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase();
+HXDLIN( 352)					 ::EReg invalidChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
+HXDLIN( 352)					 ::EReg hideChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
+HXDLIN( 352)					_hx_tmp = (_hx_tmp1 != ::StringTools_obj::trim(hideChars1->replace(invalidChars1->replace(::backend::Difficulty_obj::defaultDifficulty,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase());
             				}
             				else {
-HXLINE( 351)					filePostfix = HX_("",00,00,00,00);
+HXLINE( 352)					_hx_tmp = false;
             				}
-HXDLIN( 351)				 ::EReg invalidChars2 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
-HXDLIN( 351)				 ::EReg hideChars2 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
-HXDLIN( 351)				::String diffic = ::StringTools_obj::trim(hideChars2->replace(invalidChars2->replace(filePostfix,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase();
-HXLINE( 352)				if (::hx::IsNull( diffic )) {
-HXLINE( 352)					diffic = HX_("",00,00,00,00);
+HXDLIN( 352)				if (_hx_tmp) {
+HXLINE( 352)					filePostfix = (HX_("-",2d,00,00,00) + filePostfix);
             				}
-HXLINE( 354)				::states::PlayState_obj::storyDifficulty = this->curDifficulty;
-HXLINE( 356)				::String _hx_tmp2 = (::states::PlayState_obj::storyPlaylist->__get(0).toLowerCase() + diffic);
-HXDLIN( 356)				::backend::Song_obj::loadFromJson(_hx_tmp2,::states::PlayState_obj::storyPlaylist->__get(0).toLowerCase());
-HXLINE( 357)				::states::PlayState_obj::campaignScore = 0;
-HXLINE( 358)				::states::PlayState_obj::campaignMisses = 0;
+            				else {
+HXLINE( 352)					filePostfix = HX_("",00,00,00,00);
+            				}
+HXDLIN( 352)				 ::EReg invalidChars2 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
+HXDLIN( 352)				 ::EReg hideChars2 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
+HXDLIN( 352)				::String diffic = ::StringTools_obj::trim(hideChars2->replace(invalidChars2->replace(filePostfix,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase();
+HXLINE( 353)				if (::hx::IsNull( diffic )) {
+HXLINE( 353)					diffic = HX_("",00,00,00,00);
+            				}
+HXLINE( 355)				::states::PlayState_obj::storyDifficulty = this->curDifficulty;
+HXLINE( 357)				::String _hx_tmp2 = (::states::PlayState_obj::storyPlaylist->__get(0).toLowerCase() + diffic);
+HXDLIN( 357)				::backend::Song_obj::loadFromJson(_hx_tmp2,::states::PlayState_obj::storyPlaylist->__get(0).toLowerCase());
+HXLINE( 358)				::states::PlayState_obj::campaignScore = 0;
+HXLINE( 359)				::states::PlayState_obj::campaignMisses = 0;
             			} catch( ::Dynamic _hx_e) {
             				if (_hx_e.IsClass<  ::Dynamic >() ){
             					HX_STACK_BEGIN_CATCH
             					 ::Dynamic _g2 = _hx_e;
-HXLINE( 360)					{
-HXLINE( 360)						null();
+HXLINE( 361)					{
+HXLINE( 361)						null();
             					}
-HXDLIN( 360)					 ::Dynamic e = _g2;
-HXLINE( 362)					 ::Dynamic _hx_tmp3 = ::haxe::Log_obj::trace;
-HXDLIN( 362)					::String _hx_tmp4 = (HX_("ERROR! ",87,5a,de,69) + ::Std_obj::string(e));
-HXDLIN( 362)					_hx_tmp3(_hx_tmp4,::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),362,HX_("states.StoryMenuState",09,2f,42,21),HX_("selectWeek",10,d5,90,bd)));
-HXLINE( 363)					return;
+HXDLIN( 361)					 ::Dynamic e = _g2;
+HXLINE( 363)					 ::Dynamic _hx_tmp3 = ::haxe::Log_obj::trace;
+HXDLIN( 363)					::String _hx_tmp4 = (HX_("ERROR! ",87,5a,de,69) + ::Std_obj::string(e));
+HXDLIN( 363)					_hx_tmp3(_hx_tmp4,::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),363,HX_("states.StoryMenuState",09,2f,42,21),HX_("selectWeek",10,d5,90,bd)));
+HXLINE( 364)					return;
             				}
             				else {
             					HX_STACK_DO_THROW(_hx_e);
             				}
             			}
-HXLINE( 366)			if ((this->stopspamming == false)) {
-HXLINE( 368)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp5 = ::flixel::FlxG_obj::sound;
-HXDLIN( 368)				_hx_tmp5->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("confirmMenu",bf,8e,fe,3c)),null(),true,null()),null(),null(),null(),null(),null());
-HXLINE( 370)				Dynamic( this->grpWeekText->members->__get(::states::StoryMenuState_obj::curWeek)).StaticCast<  ::objects::MenuItem >()->set_isFlashing(true);
-HXLINE( 371)				{
-HXLINE( 371)					int _g3 = 0;
-HXDLIN( 371)					::Array< ::Dynamic> _g4 = this->grpWeekCharacters->members;
-HXDLIN( 371)					while((_g3 < _g4->length)){
-HXLINE( 371)						 ::objects::MenuCharacter _hx_char = _g4->__get(_g3).StaticCast<  ::objects::MenuCharacter >();
-HXDLIN( 371)						_g3 = (_g3 + 1);
-HXLINE( 373)						bool _hx_tmp6;
-HXDLIN( 373)						if ((_hx_char->character != HX_("",00,00,00,00))) {
-HXLINE( 373)							_hx_tmp6 = _hx_char->hasConfirmAnimation;
+HXLINE( 367)			if ((this->stopspamming == false)) {
+HXLINE( 369)				 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp5 = ::flixel::FlxG_obj::sound;
+HXDLIN( 369)				_hx_tmp5->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("confirmMenu",bf,8e,fe,3c)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 371)				Dynamic( this->grpWeekText->members->__get(::states::StoryMenuState_obj::curWeek)).StaticCast<  ::objects::MenuItem >()->set_isFlashing(true);
+HXLINE( 372)				{
+HXLINE( 372)					int _g3 = 0;
+HXDLIN( 372)					::Array< ::Dynamic> _g4 = this->grpWeekCharacters->members;
+HXDLIN( 372)					while((_g3 < _g4->length)){
+HXLINE( 372)						 ::objects::MenuCharacter _hx_char = _g4->__get(_g3).StaticCast<  ::objects::MenuCharacter >();
+HXDLIN( 372)						_g3 = (_g3 + 1);
+HXLINE( 374)						bool _hx_tmp6;
+HXDLIN( 374)						if ((_hx_char->character != HX_("",00,00,00,00))) {
+HXLINE( 374)							_hx_tmp6 = _hx_char->hasConfirmAnimation;
             						}
             						else {
-HXLINE( 373)							_hx_tmp6 = false;
+HXLINE( 374)							_hx_tmp6 = false;
             						}
-HXDLIN( 373)						if (_hx_tmp6) {
-HXLINE( 375)							_hx_char->animation->play(HX_("confirm",00,9d,39,10),null(),null(),null());
+HXDLIN( 374)						if (_hx_tmp6) {
+HXLINE( 376)							_hx_char->animation->play(HX_("confirm",00,9d,39,10),null(),null(),null());
             						}
             					}
             				}
-HXLINE( 378)				this->stopspamming = true;
+HXLINE( 379)				this->stopspamming = true;
             			}
-HXLINE( 381)			::String directory = ::backend::StageData_obj::forceNextDirectory;
-HXLINE( 382)			::states::LoadingState_obj::loadNextDirectory();
-HXLINE( 383)			::backend::StageData_obj::forceNextDirectory = directory;
-HXLINE( 386)			if ((::states::PlayState_obj::_lastLoadedModDirectory != ::backend::Mods_obj::currentModDirectory)) {
-HXLINE( 388)				::haxe::Log_obj::trace(HX_("CHANGED MOD DIRECTORY, RELOADING STUFF",26,cc,2c,25),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),388,HX_("states.StoryMenuState",09,2f,42,21),HX_("selectWeek",10,d5,90,bd)));
-HXLINE( 389)				::backend::Paths_obj::freeGraphicsFromMemory();
+HXLINE( 382)			::String directory = ::backend::StageData_obj::forceNextDirectory;
+HXLINE( 383)			::states::LoadingState_obj::loadNextDirectory();
+HXLINE( 384)			::backend::StageData_obj::forceNextDirectory = directory;
+HXLINE( 387)			if ((::states::PlayState_obj::_lastLoadedModDirectory != ::backend::Mods_obj::currentModDirectory)) {
+HXLINE( 389)				::haxe::Log_obj::trace(HX_("CHANGED MOD DIRECTORY, RELOADING STUFF",26,cc,2c,25),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),389,HX_("states.StoryMenuState",09,2f,42,21),HX_("selectWeek",10,d5,90,bd)));
+HXLINE( 390)				::backend::Paths_obj::freeGraphicsFromMemory();
             			}
-HXLINE( 391)			::states::LoadingState_obj::prepareToSong();
-HXLINE( 392)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(1, ::Dynamic(new _hx_Closure_0()),null());
-HXLINE( 400)			::backend::DiscordClient_obj::loadModRPC();
+HXLINE( 392)			::states::LoadingState_obj::prepareToSong();
+HXLINE( 393)			 ::flixel::util::FlxTimer_obj::__alloc( HX_CTX ,null())->start(1, ::Dynamic(new _hx_Closure_0()),null());
+HXLINE( 401)			::backend::DiscordClient_obj::loadModRPC();
             		}
             		else {
-HXLINE( 403)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp7 = ::flixel::FlxG_obj::sound;
-HXDLIN( 403)			_hx_tmp7->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
+HXLINE( 404)			 ::flixel::_hx_system::frontEnds::SoundFrontEnd _hx_tmp7 = ::flixel::FlxG_obj::sound;
+HXDLIN( 404)			_hx_tmp7->play(::backend::Paths_obj::returnSound((HX_("sounds/",eb,02,a5,b6) + HX_("cancelMenu",39,a4,43,b7)),null(),true,null()),null(),null(),null(),null(),null());
             		}
             	}
 
@@ -960,82 +961,82 @@ HX_DEFINE_DYNAMIC_FUNC0(StoryMenuState_obj,selectWeek,(void))
 
 void StoryMenuState_obj::changeDifficulty(::hx::Null< int >  __o_change){
             		int change = __o_change.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_407_changeDifficulty)
-HXLINE( 408)		 ::states::StoryMenuState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
-HXDLIN( 408)		_hx_tmp->curDifficulty = (_hx_tmp->curDifficulty + change);
-HXLINE( 410)		if ((this->curDifficulty < 0)) {
-HXLINE( 411)			this->curDifficulty = (::backend::Difficulty_obj::list->length - 1);
+            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_408_changeDifficulty)
+HXLINE( 409)		 ::states::StoryMenuState _hx_tmp = ::hx::ObjectPtr<OBJ_>(this);
+HXDLIN( 409)		_hx_tmp->curDifficulty = (_hx_tmp->curDifficulty + change);
+HXLINE( 411)		if ((this->curDifficulty < 0)) {
+HXLINE( 412)			this->curDifficulty = (::backend::Difficulty_obj::list->length - 1);
             		}
-HXLINE( 412)		if ((this->curDifficulty >= ::backend::Difficulty_obj::list->length)) {
-HXLINE( 413)			this->curDifficulty = 0;
+HXLINE( 413)		if ((this->curDifficulty >= ::backend::Difficulty_obj::list->length)) {
+HXLINE( 414)			this->curDifficulty = 0;
             		}
-HXLINE( 415)		::backend::WeekData_obj::setDirectoryFromWeek(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >());
-HXLINE( 417)		 ::Dynamic num = this->curDifficulty;
-HXDLIN( 417)		 ::Dynamic canTranslate = false;
-HXDLIN( 417)		if (::hx::IsNull( canTranslate )) {
-HXLINE( 417)			canTranslate = true;
+HXLINE( 416)		::backend::WeekData_obj::setDirectoryFromWeek(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >());
+HXLINE( 418)		 ::Dynamic num = this->curDifficulty;
+HXDLIN( 418)		 ::Dynamic canTranslate = false;
+HXDLIN( 418)		if (::hx::IsNull( canTranslate )) {
+HXLINE( 418)			canTranslate = true;
             		}
-HXDLIN( 417)		 ::Dynamic diffName;
-HXDLIN( 417)		if (::hx::IsNull( num )) {
-HXLINE( 417)			diffName = ::states::PlayState_obj::storyDifficulty;
+HXDLIN( 418)		 ::Dynamic diffName;
+HXDLIN( 418)		if (::hx::IsNull( num )) {
+HXLINE( 418)			diffName = ::states::PlayState_obj::storyDifficulty;
             		}
             		else {
-HXLINE( 417)			diffName = num;
+HXLINE( 418)			diffName = num;
             		}
-HXDLIN( 417)		::String diffName1 = ::backend::Difficulty_obj::list->__get(( (int)(diffName) ));
-HXDLIN( 417)		if (::hx::IsNull( diffName1 )) {
+HXDLIN( 418)		::String diffName1 = ::backend::Difficulty_obj::list->__get(( (int)(diffName) ));
+HXDLIN( 418)		if (::hx::IsNull( diffName1 )) {
 HXLINE(  64)			diffName1 = ::backend::Difficulty_obj::defaultDifficulty;
             		}
-HXLINE( 417)		::String diff;
-HXDLIN( 417)		if (( (bool)(canTranslate) )) {
-HXLINE( 417)			::String key = (HX_("difficulty_",c4,25,f6,54) + diffName1);
-HXDLIN( 417)			::cpp::VirtualArray values = null();
-HXDLIN( 417)			::Dynamic this1 = ::backend::Language_obj::phrases;
-HXDLIN( 417)			 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
-HXDLIN( 417)			::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(key,HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
-HXDLIN( 417)			if (::hx::IsNull( str )) {
+HXLINE( 418)		::String diff;
+HXDLIN( 418)		if (( (bool)(canTranslate) )) {
+HXLINE( 418)			::String key = (HX_("difficulty_",c4,25,f6,54) + diffName1);
+HXDLIN( 418)			::cpp::VirtualArray values = null();
+HXDLIN( 418)			::Dynamic this1 = ::backend::Language_obj::phrases;
+HXDLIN( 418)			 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
+HXDLIN( 418)			::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(key,HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
+HXDLIN( 418)			if (::hx::IsNull( str )) {
 HXLINE(  62)				str = diffName1;
             			}
-HXLINE( 417)			if (::hx::IsNull( str )) {
+HXLINE( 418)			if (::hx::IsNull( str )) {
 HXLINE(  68)				str = key;
             			}
-HXLINE( 417)			if (::hx::IsNotNull( values )) {
-HXLINE( 417)				int _g_current = 0;
-HXDLIN( 417)				::cpp::VirtualArray _g_array = values;
-HXDLIN( 417)				while((_g_current < _g_array->get_length())){
-HXLINE( 417)					 ::Dynamic _g_value = _g_array->__get(_g_current);
-HXDLIN( 417)					_g_current = (_g_current + 1);
-HXDLIN( 417)					int _g_key = (_g_current - 1);
-HXDLIN( 417)					int num1 = _g_key;
-HXDLIN( 417)					 ::Dynamic value = _g_value;
+HXLINE( 418)			if (::hx::IsNotNull( values )) {
+HXLINE( 418)				int _g_current = 0;
+HXDLIN( 418)				::cpp::VirtualArray _g_array = values;
+HXDLIN( 418)				while((_g_current < _g_array->get_length())){
+HXLINE( 418)					 ::Dynamic _g_value = _g_array->__get(_g_current);
+HXDLIN( 418)					_g_current = (_g_current + 1);
+HXDLIN( 418)					int _g_key = (_g_current - 1);
+HXDLIN( 418)					int num1 = _g_key;
+HXDLIN( 418)					 ::Dynamic value = _g_value;
 HXLINE(  72)					str = ::StringTools_obj::replace(str,((HX_("{",7b,00,00,00) + (num1 + 1)) + HX_("}",7d,00,00,00)),( (::String)(value) ));
             				}
             			}
-HXLINE( 417)			diff = str;
+HXLINE( 418)			diff = str;
             		}
             		else {
-HXLINE( 417)			diff = diffName1;
+HXLINE( 418)			diff = diffName1;
             		}
-HXLINE( 418)		 ::EReg invalidChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
-HXDLIN( 418)		 ::EReg hideChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
-HXDLIN( 418)		 ::flixel::graphics::FlxGraphic newImage = ::backend::Paths_obj::image((HX_("menudifficulties/",b7,09,b6,65) + ::StringTools_obj::trim(hideChars1->replace(invalidChars->replace(diff,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase()),null(),null());
-HXLINE( 421)		if (::hx::IsInstanceNotEq( this->sprDifficulty->graphic,newImage )) {
-HXLINE( 423)			this->sprDifficulty->loadGraphic(newImage,null(),null(),null(),null(),null());
-HXLINE( 424)			this->sprDifficulty->set_x((this->leftArrow->x + 60));
-HXLINE( 425)			 ::flixel::FlxSprite fh = this->sprDifficulty;
-HXDLIN( 425)			Float fh1 = fh->x;
-HXDLIN( 425)			fh->set_x((fh1 + ((( (Float)(308) ) - this->sprDifficulty->get_width()) / ( (Float)(3) ))));
-HXLINE( 426)			this->sprDifficulty->set_alpha(( (Float)(0) ));
-HXLINE( 427)			 ::flixel::FlxSprite _hx_tmp1 = this->sprDifficulty;
-HXDLIN( 427)			Float _hx_tmp2 = this->leftArrow->y;
-HXDLIN( 427)			_hx_tmp1->set_y(((_hx_tmp2 - this->sprDifficulty->get_height()) + 50));
-HXLINE( 429)			::flixel::tweens::FlxTween_obj::cancelTweensOf(this->sprDifficulty,null());
-HXLINE( 430)			::flixel::tweens::FlxTween_obj::tween(this->sprDifficulty, ::Dynamic(::hx::Anon_obj::Create(2)
+HXLINE( 419)		 ::EReg invalidChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&;:<>#\\s]",07,34,b4,25),HX_("g",67,00,00,00));
+HXDLIN( 419)		 ::EReg hideChars1 =  ::EReg_obj::__alloc( HX_CTX ,HX_("[.,'\"%?!]",ca,d9,c0,ac),HX_("g",67,00,00,00));
+HXDLIN( 419)		 ::flixel::graphics::FlxGraphic newImage = ::backend::Paths_obj::image((HX_("menudifficulties/",b7,09,b6,65) + ::StringTools_obj::trim(hideChars1->replace(invalidChars->replace(diff,HX_("-",2d,00,00,00)),HX_("",00,00,00,00))).toLowerCase()),null(),null());
+HXLINE( 422)		if (::hx::IsInstanceNotEq( this->sprDifficulty->graphic,newImage )) {
+HXLINE( 424)			this->sprDifficulty->loadGraphic(newImage,null(),null(),null(),null(),null());
+HXLINE( 425)			this->sprDifficulty->set_x((this->leftArrow->x + 60));
+HXLINE( 426)			 ::flixel::FlxSprite fh = this->sprDifficulty;
+HXDLIN( 426)			Float fh1 = fh->x;
+HXDLIN( 426)			fh->set_x((fh1 + ((( (Float)(308) ) - this->sprDifficulty->get_width()) / ( (Float)(3) ))));
+HXLINE( 427)			this->sprDifficulty->set_alpha(( (Float)(0) ));
+HXLINE( 428)			 ::flixel::FlxSprite _hx_tmp1 = this->sprDifficulty;
+HXDLIN( 428)			Float _hx_tmp2 = this->leftArrow->y;
+HXDLIN( 428)			_hx_tmp1->set_y(((_hx_tmp2 - this->sprDifficulty->get_height()) + 50));
+HXLINE( 430)			::flixel::tweens::FlxTween_obj::cancelTweensOf(this->sprDifficulty,null());
+HXLINE( 431)			::flixel::tweens::FlxTween_obj::tween(this->sprDifficulty, ::Dynamic(::hx::Anon_obj::Create(2)
             				->setFixed(0,HX_("y",79,00,00,00),(this->sprDifficulty->y + 30))
             				->setFixed(1,HX_("alpha",5e,a7,96,21),1)),((Float)0.07),null());
             		}
-HXLINE( 432)		::states::StoryMenuState_obj::lastDifficultyName = diff;
-HXLINE( 435)		this->intendedScore = ::backend::Highscore_obj::getWeekScore(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName,this->curDifficulty);
+HXLINE( 433)		::states::StoryMenuState_obj::lastDifficultyName = diff;
+HXLINE( 436)		this->intendedScore = ::backend::Highscore_obj::getWeekScore(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName,this->curDifficulty);
             	}
 
 
@@ -1043,322 +1044,323 @@ HX_DEFINE_DYNAMIC_FUNC1(StoryMenuState_obj,changeDifficulty,(void))
 
 void StoryMenuState_obj::changeWeek(::hx::Null< int >  __o_change){
             		int change = __o_change.Default(0);
-            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_443_changeWeek)
-HXLINE( 444)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::states::StoryMenuState >();
-HXDLIN( 444)		::states::StoryMenuState_obj::curWeek = (::states::StoryMenuState_obj::curWeek + change);
-HXLINE( 446)		if ((::states::StoryMenuState_obj::curWeek >= this->loadedWeeks->length)) {
-HXLINE( 447)			::states::StoryMenuState_obj::curWeek = 0;
+            	HX_GC_STACKFRAME(&_hx_pos_bb97520c7169a052_444_changeWeek)
+HXLINE( 445)		 ::Dynamic _hx_tmp = ::hx::ClassOf< ::states::StoryMenuState >();
+HXDLIN( 445)		::states::StoryMenuState_obj::curWeek = (::states::StoryMenuState_obj::curWeek + change);
+HXLINE( 447)		if ((::states::StoryMenuState_obj::curWeek >= this->loadedWeeks->length)) {
+HXLINE( 448)			::states::StoryMenuState_obj::curWeek = 0;
             		}
-HXLINE( 448)		if ((::states::StoryMenuState_obj::curWeek < 0)) {
-HXLINE( 449)			::states::StoryMenuState_obj::curWeek = (this->loadedWeeks->length - 1);
+HXLINE( 449)		if ((::states::StoryMenuState_obj::curWeek < 0)) {
+HXLINE( 450)			::states::StoryMenuState_obj::curWeek = (this->loadedWeeks->length - 1);
             		}
-HXLINE( 451)		 ::backend::WeekData leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >();
-HXLINE( 452)		::backend::WeekData_obj::setDirectoryFromWeek(leWeek);
-HXLINE( 454)		::String key = (HX_("storyname_",9f,03,f9,3f) + leWeek->fileName);
-HXDLIN( 454)		::String defaultPhrase = leWeek->storyName;
-HXDLIN( 454)		::cpp::VirtualArray values = null();
-HXDLIN( 454)		::Dynamic this1 = ::backend::Language_obj::phrases;
-HXDLIN( 454)		 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
-HXDLIN( 454)		::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(key,HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
-HXDLIN( 454)		if (::hx::IsNull( str )) {
+HXLINE( 452)		 ::backend::WeekData leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >();
+HXLINE( 453)		::backend::WeekData_obj::setDirectoryFromWeek(leWeek);
+HXLINE( 455)		::String key = (HX_("storyname_",9f,03,f9,3f) + leWeek->fileName);
+HXDLIN( 455)		::String defaultPhrase = leWeek->storyName;
+HXDLIN( 455)		::cpp::VirtualArray values = null();
+HXDLIN( 455)		::Dynamic this1 = ::backend::Language_obj::phrases;
+HXDLIN( 455)		 ::EReg hideChars =  ::EReg_obj::__alloc( HX_CTX ,HX_("[~&\\\\/;:<>#.,'\"%?!]",85,3f,6d,6d),HX_("g",67,00,00,00));
+HXDLIN( 455)		::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(hideChars->replace(::StringTools_obj::replace(key,HX_(" ",20,00,00,00),HX_("_",5f,00,00,00)),HX_("",00,00,00,00)).toLowerCase()));
+HXDLIN( 455)		if (::hx::IsNull( str )) {
 HXLINE(  62)			str = defaultPhrase;
             		}
-HXLINE( 454)		if (::hx::IsNull( str )) {
+HXLINE( 455)		if (::hx::IsNull( str )) {
 HXLINE(  68)			str = key;
             		}
-HXLINE( 454)		if (::hx::IsNotNull( values )) {
-HXLINE( 454)			int _g_current = 0;
-HXDLIN( 454)			::cpp::VirtualArray _g_array = values;
-HXDLIN( 454)			while((_g_current < _g_array->get_length())){
-HXLINE( 454)				 ::Dynamic _g_value = _g_array->__get(_g_current);
-HXDLIN( 454)				_g_current = (_g_current + 1);
-HXDLIN( 454)				int _g_key = (_g_current - 1);
-HXDLIN( 454)				int num = _g_key;
-HXDLIN( 454)				 ::Dynamic value = _g_value;
+HXLINE( 455)		if (::hx::IsNotNull( values )) {
+HXLINE( 455)			int _g_current = 0;
+HXDLIN( 455)			::cpp::VirtualArray _g_array = values;
+HXDLIN( 455)			while((_g_current < _g_array->get_length())){
+HXLINE( 455)				 ::Dynamic _g_value = _g_array->__get(_g_current);
+HXDLIN( 455)				_g_current = (_g_current + 1);
+HXDLIN( 455)				int _g_key = (_g_current - 1);
+HXDLIN( 455)				int num = _g_key;
+HXDLIN( 455)				 ::Dynamic value = _g_value;
 HXLINE(  72)				str = ::StringTools_obj::replace(str,((HX_("{",7b,00,00,00) + (num + 1)) + HX_("}",7d,00,00,00)),( (::String)(value) ));
             			}
             		}
-HXLINE( 454)		::String leName = str;
-HXLINE( 455)		 ::flixel::text::FlxText _hx_tmp1 = this->txtWeekTitle;
-HXDLIN( 455)		_hx_tmp1->set_text(leName.toUpperCase());
-HXLINE( 456)		 ::flixel::text::FlxText _hx_tmp2 = this->txtWeekTitle;
-HXDLIN( 456)		int _hx_tmp3 = ::flixel::FlxG_obj::width;
-HXDLIN( 456)		_hx_tmp2->set_x((( (Float)(_hx_tmp3) ) - (this->txtWeekTitle->get_width() + 10)));
-HXLINE( 458)		bool unlocked = !(this->weekIsLocked(leWeek->fileName));
-HXLINE( 459)		{
-HXLINE( 459)			int _g_current1 = 0;
-HXDLIN( 459)			::Array< ::Dynamic> _g_array1 = this->grpWeekText->members;
-HXDLIN( 459)			while((_g_current1 < _g_array1->length)){
-HXLINE( 459)				 ::objects::MenuItem _g_value1 = _g_array1->__get(_g_current1).StaticCast<  ::objects::MenuItem >();
-HXDLIN( 459)				_g_current1 = (_g_current1 + 1);
-HXDLIN( 459)				int _g_key1 = (_g_current1 - 1);
-HXDLIN( 459)				int num1 = _g_key1;
-HXDLIN( 459)				 ::objects::MenuItem item = _g_value1;
-HXLINE( 460)				{
-HXLINE( 461)					item->set_alpha(( (Float)(0) ));
-HXLINE( 462)					bool _hx_tmp4;
-HXDLIN( 462)					if (((num1 - ::states::StoryMenuState_obj::curWeek) == 0)) {
-HXLINE( 462)						_hx_tmp4 = unlocked;
+HXLINE( 455)		::String leName = str;
+HXLINE( 456)		 ::flixel::text::FlxText _hx_tmp1 = this->txtWeekTitle;
+HXDLIN( 456)		_hx_tmp1->set_text(leName.toUpperCase());
+HXLINE( 457)		 ::flixel::text::FlxText _hx_tmp2 = this->txtWeekTitle;
+HXDLIN( 457)		int _hx_tmp3 = ::flixel::FlxG_obj::width;
+HXDLIN( 457)		_hx_tmp2->set_x((( (Float)(_hx_tmp3) ) - (this->txtWeekTitle->get_width() + 10)));
+HXLINE( 459)		bool unlocked = !(this->weekIsLocked(leWeek->fileName));
+HXLINE( 460)		{
+HXLINE( 460)			int _g_current1 = 0;
+HXDLIN( 460)			::Array< ::Dynamic> _g_array1 = this->grpWeekText->members;
+HXDLIN( 460)			while((_g_current1 < _g_array1->length)){
+HXLINE( 460)				 ::objects::MenuItem _g_value1 = _g_array1->__get(_g_current1).StaticCast<  ::objects::MenuItem >();
+HXDLIN( 460)				_g_current1 = (_g_current1 + 1);
+HXDLIN( 460)				int _g_key1 = (_g_current1 - 1);
+HXDLIN( 460)				int num1 = _g_key1;
+HXDLIN( 460)				 ::objects::MenuItem item = _g_value1;
+HXLINE( 461)				{
+HXLINE( 462)					item->set_alpha(( (Float)(0) ));
+HXLINE( 463)					bool _hx_tmp4;
+HXDLIN( 463)					if (((num1 - ::states::StoryMenuState_obj::curWeek) == 0)) {
+HXLINE( 463)						_hx_tmp4 = unlocked;
             					}
             					else {
-HXLINE( 462)						_hx_tmp4 = false;
+HXLINE( 463)						_hx_tmp4 = false;
             					}
-HXDLIN( 462)					if (_hx_tmp4) {
-HXLINE( 463)						item->set_alpha(( (Float)(1) ));
+HXDLIN( 463)					if (_hx_tmp4) {
+HXLINE( 464)						item->set_alpha(( (Float)(1) ));
             					}
             				}
             			}
             		}
-HXLINE( 466)		this->bgSprite->set_visible(true);
-HXLINE( 467)		::String assetName = leWeek->fileName;
-HXLINE( 468)		::String assetName2 = leWeek->weekBackground;
-HXLINE( 469)		::haxe::Log_obj::trace((HX_("DEBUG: assetName for book is: ",92,55,ed,3f) + assetName),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),469,HX_("states.StoryMenuState",09,2f,42,21),HX_("changeWeek",84,95,3e,29)));
-HXLINE( 470)		bool _hx_tmp5;
-HXDLIN( 470)		if (::hx::IsNotNull( assetName2 )) {
-HXLINE( 470)			_hx_tmp5 = (assetName2.length < 1);
+HXLINE( 467)		this->bgSprite->set_visible(true);
+HXLINE( 468)		::String assetName = leWeek->fileName;
+HXLINE( 469)		::String assetName2 = leWeek->weekBackground;
+HXLINE( 470)		::haxe::Log_obj::trace((HX_("DEBUG: assetName for book is: ",92,55,ed,3f) + assetName),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),470,HX_("states.StoryMenuState",09,2f,42,21),HX_("changeWeek",84,95,3e,29)));
+HXLINE( 471)		bool _hx_tmp5;
+HXDLIN( 471)		if (::hx::IsNotNull( assetName2 )) {
+HXLINE( 471)			_hx_tmp5 = (assetName2.length < 1);
             		}
             		else {
-HXLINE( 470)			_hx_tmp5 = true;
+HXLINE( 471)			_hx_tmp5 = true;
             		}
-HXDLIN( 470)		if (_hx_tmp5) {
-HXLINE( 471)			 ::flixel::FlxSprite _hx_tmp6 = this->book;
-HXDLIN( 471)			_hx_tmp6->loadGraphic(::backend::Paths_obj::image(HX_("books/book_pooh",89,1e,3f,b7),null(),null()),null(),null(),null(),null(),null());
-HXLINE( 472)			this->book->set_visible(true);
-HXLINE( 473)			 ::flixel::FlxSprite _hx_tmp7 = this->colorB;
-HXDLIN( 473)			_hx_tmp7->loadGraphic(::backend::Paths_obj::image(HX_("color/debug",67,65,79,27),null(),null()),null(),null(),null(),null(),null());
-HXLINE( 474)			this->colorB->set_visible(true);
-HXLINE( 476)			 ::flixel::FlxSprite _hx_tmp8 = this->doko;
-HXDLIN( 476)			::String parentFolder = null();
-HXDLIN( 476)			if ((HX_("characters/m/BOYFRIEND bw",12,44,fd,5c).indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
-HXLINE( 476)				::haxe::Log_obj::trace(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c), ::Dynamic(::hx::Anon_obj::Create(5)
+HXDLIN( 471)		if (_hx_tmp5) {
+HXLINE( 472)			 ::flixel::FlxSprite _hx_tmp6 = this->book;
+HXDLIN( 472)			_hx_tmp6->loadGraphic(::backend::Paths_obj::image(HX_("books/book_pooh",89,1e,3f,b7),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 473)			this->book->set_visible(true);
+HXLINE( 474)			 ::flixel::FlxSprite _hx_tmp7 = this->colorB;
+HXDLIN( 474)			_hx_tmp7->loadGraphic(::backend::Paths_obj::image(HX_("color/debug",67,65,79,27),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 475)			this->colorB->set_visible(true);
+HXLINE( 477)			 ::flixel::FlxSprite _hx_tmp8 = this->doko;
+HXDLIN( 477)			::String parentFolder = null();
+HXDLIN( 477)			if ((HX_("characters/m/BOYFRIEND bw",12,44,fd,5c).indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
+HXLINE( 477)				::haxe::Log_obj::trace(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c), ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("className",a3,92,3d,dc),HX_("backend.Paths",34,17,99,92))
             					->setFixed(1,HX_("customParams",d7,51,18,ed),::cpp::VirtualArray_obj::__new(2)->init(0,parentFolder)->init(1,true))
             					->setFixed(2,HX_("methodName",cc,19,0f,12),HX_("getSparrowAtlas",55,ab,b7,a7))
             					->setFixed(3,HX_("fileName",e7,5a,43,62),HX_("source/backend/Paths.hx",ff,43,8c,3d))
             					->setFixed(4,HX_("lineNumber",dd,81,22,76),372)));
             			}
-HXDLIN( 476)			 ::flixel::graphics::FlxGraphic imageLoaded = ::backend::Paths_obj::image(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c),parentFolder,true);
-HXDLIN( 476)			bool xmlExists = false;
-HXDLIN( 476)			::String xml = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c)) + HX_(".xml",69,3e,c3,1e)));
-HXDLIN( 476)			if (::sys::FileSystem_obj::exists(xml)) {
+HXDLIN( 477)			 ::flixel::graphics::FlxGraphic imageLoaded = ::backend::Paths_obj::image(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c),parentFolder,true);
+HXDLIN( 477)			bool xmlExists = false;
+HXDLIN( 477)			::String xml = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c)) + HX_(".xml",69,3e,c3,1e)));
+HXDLIN( 477)			if (::sys::FileSystem_obj::exists(xml)) {
 HXLINE( 378)				xmlExists = true;
             			}
-HXLINE( 476)			 ::Dynamic _hx_tmp9;
-HXDLIN( 476)			if (xmlExists) {
-HXLINE( 476)				_hx_tmp9 = ::sys::io::File_obj::getContent(xml);
+HXLINE( 477)			 ::Dynamic _hx_tmp9;
+HXDLIN( 477)			if (xmlExists) {
+HXLINE( 477)				_hx_tmp9 = ::sys::io::File_obj::getContent(xml);
             			}
             			else {
-HXLINE( 476)				::String key1 = (HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c));
-HXDLIN( 476)				::Dynamic this2 = ::backend::Language_obj::phrases;
-HXDLIN( 476)				::String str1 = ( ( ::haxe::ds::StringMap)(this2) )->get_string(::StringTools_obj::trim(key1).toLowerCase());
-HXDLIN( 476)				if (::hx::IsNotNull( str1 )) {
+HXLINE( 477)				::String key1 = (HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c));
+HXDLIN( 477)				::Dynamic this2 = ::backend::Language_obj::phrases;
+HXDLIN( 477)				::String str1 = ( ( ::haxe::ds::StringMap)(this2) )->get_string(::StringTools_obj::trim(key1).toLowerCase());
+HXDLIN( 477)				if (::hx::IsNotNull( str1 )) {
 HXLINE(  82)					key1 = str1;
             				}
-HXLINE( 476)				_hx_tmp9 = ::backend::Paths_obj::getPath((key1 + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),parentFolder,null());
+HXLINE( 477)				_hx_tmp9 = ::backend::Paths_obj::getPath((key1 + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),parentFolder,null());
             			}
-HXDLIN( 476)			_hx_tmp8->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(imageLoaded,_hx_tmp9));
-HXLINE( 477)			this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("BF idle dance",03,fa,cc,7f),24,true,null(),null());
-HXLINE( 478)			this->doko->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
-HXLINE( 479)			this->doko->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
-HXLINE( 480)			this->doko->set_visible(true);
-HXLINE( 481)			this->add(this->doko);
+HXDLIN( 477)			_hx_tmp8->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(imageLoaded,_hx_tmp9));
+HXLINE( 478)			this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Idle",34,d3,8c,30),24,true,null(),null());
+HXLINE( 479)			this->doko->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+HXLINE( 480)			this->doko->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 481)			this->doko->set_visible(true);
+HXLINE( 482)			this->add(this->doko);
             		}
             		else {
-HXLINE( 483)			 ::flixel::FlxSprite _hx_tmp10 = this->bgSprite;
-HXDLIN( 483)			_hx_tmp10->loadGraphic(::backend::Paths_obj::image((HX_("menubackgrounds/menu_",57,51,99,49) + assetName2),null(),null()),null(),null(),null(),null(),null());
-HXLINE( 484)			this->bgSprite->set_visible(false);
-HXLINE( 485)			 ::flixel::FlxSprite _hx_tmp11 = this->book;
-HXDLIN( 485)			_hx_tmp11->loadGraphic(::backend::Paths_obj::image((HX_("books/book_",31,b1,13,44) + assetName),null(),null()),null(),null(),null(),null(),null());
-HXLINE( 486)			 ::flixel::FlxSprite _hx_tmp12 = this->colorB;
-HXDLIN( 486)			_hx_tmp12->loadGraphic(::backend::Paths_obj::image((HX_("color/",6c,c5,86,c6) + assetName),null(),null()),null(),null(),null(),null(),null());
-HXLINE( 487)			::haxe::Log_obj::trace((HX_("DEBUG: assetName for bg is: ",b6,fd,b1,70) + assetName),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),487,HX_("states.StoryMenuState",09,2f,42,21),HX_("changeWeek",84,95,3e,29)));
-HXLINE( 488)			this->colorB->set_visible(true);
-HXLINE( 490)			 ::flixel::FlxSprite _hx_tmp13 = this->doko;
-HXDLIN( 490)			::String parentFolder1 = null();
-HXDLIN( 490)			if ((HX_("characters/m/BOYFRIEND bw",12,44,fd,5c).indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
-HXLINE( 490)				::haxe::Log_obj::trace(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c), ::Dynamic(::hx::Anon_obj::Create(5)
+HXLINE( 484)			 ::flixel::FlxSprite _hx_tmp10 = this->bgSprite;
+HXDLIN( 484)			_hx_tmp10->loadGraphic(::backend::Paths_obj::image((HX_("menubackgrounds/menu_",57,51,99,49) + assetName2),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 485)			this->bgSprite->set_visible(false);
+HXLINE( 486)			 ::flixel::FlxSprite _hx_tmp11 = this->book;
+HXDLIN( 486)			_hx_tmp11->loadGraphic(::backend::Paths_obj::image((HX_("books/book_",31,b1,13,44) + assetName),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 487)			 ::flixel::FlxSprite _hx_tmp12 = this->colorB;
+HXDLIN( 487)			_hx_tmp12->loadGraphic(::backend::Paths_obj::image((HX_("color/",6c,c5,86,c6) + assetName),null(),null()),null(),null(),null(),null(),null());
+HXLINE( 488)			::haxe::Log_obj::trace((HX_("DEBUG: assetName for bg is: ",b6,fd,b1,70) + assetName),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),488,HX_("states.StoryMenuState",09,2f,42,21),HX_("changeWeek",84,95,3e,29)));
+HXLINE( 489)			this->colorB->set_visible(true);
+HXLINE( 491)			 ::flixel::FlxSprite _hx_tmp13 = this->doko;
+HXDLIN( 491)			::String key2 = (HX_("characters/m/",a7,f6,3a,5a) + assetName);
+HXDLIN( 491)			::String parentFolder1 = null();
+HXDLIN( 491)			if ((key2.indexOf(HX_("psychic",d5,09,aa,19),null()) != -1)) {
+HXLINE( 491)				::haxe::Log_obj::trace(key2, ::Dynamic(::hx::Anon_obj::Create(5)
             					->setFixed(0,HX_("className",a3,92,3d,dc),HX_("backend.Paths",34,17,99,92))
             					->setFixed(1,HX_("customParams",d7,51,18,ed),::cpp::VirtualArray_obj::__new(2)->init(0,parentFolder1)->init(1,true))
             					->setFixed(2,HX_("methodName",cc,19,0f,12),HX_("getSparrowAtlas",55,ab,b7,a7))
             					->setFixed(3,HX_("fileName",e7,5a,43,62),HX_("source/backend/Paths.hx",ff,43,8c,3d))
             					->setFixed(4,HX_("lineNumber",dd,81,22,76),372)));
             			}
-HXDLIN( 490)			 ::flixel::graphics::FlxGraphic imageLoaded1 = ::backend::Paths_obj::image(HX_("characters/m/BOYFRIEND bw",12,44,fd,5c),parentFolder1,true);
-HXDLIN( 490)			bool xmlExists1 = false;
-HXDLIN( 490)			::String xml1 = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c)) + HX_(".xml",69,3e,c3,1e)));
-HXDLIN( 490)			if (::sys::FileSystem_obj::exists(xml1)) {
+HXDLIN( 491)			 ::flixel::graphics::FlxGraphic imageLoaded1 = ::backend::Paths_obj::image(key2,parentFolder1,true);
+HXDLIN( 491)			bool xmlExists1 = false;
+HXDLIN( 491)			::String xml1 = ::backend::Paths_obj::modFolders(((HX_("images/",77,50,74,c1) + key2) + HX_(".xml",69,3e,c3,1e)));
+HXDLIN( 491)			if (::sys::FileSystem_obj::exists(xml1)) {
 HXLINE( 378)				xmlExists1 = true;
             			}
-HXLINE( 490)			 ::Dynamic _hx_tmp14;
-HXDLIN( 490)			if (xmlExists1) {
-HXLINE( 490)				_hx_tmp14 = ::sys::io::File_obj::getContent(xml1);
+HXLINE( 491)			 ::Dynamic _hx_tmp14;
+HXDLIN( 491)			if (xmlExists1) {
+HXLINE( 491)				_hx_tmp14 = ::sys::io::File_obj::getContent(xml1);
             			}
             			else {
-HXLINE( 490)				::String key2 = (HX_("images/",77,50,74,c1) + HX_("characters/m/BOYFRIEND bw",12,44,fd,5c));
-HXDLIN( 490)				::Dynamic this3 = ::backend::Language_obj::phrases;
-HXDLIN( 490)				::String str2 = ( ( ::haxe::ds::StringMap)(this3) )->get_string(::StringTools_obj::trim(key2).toLowerCase());
-HXDLIN( 490)				if (::hx::IsNotNull( str2 )) {
-HXLINE(  82)					key2 = str2;
+HXLINE( 491)				::String key3 = (HX_("images/",77,50,74,c1) + key2);
+HXDLIN( 491)				::Dynamic this3 = ::backend::Language_obj::phrases;
+HXDLIN( 491)				::String str2 = ( ( ::haxe::ds::StringMap)(this3) )->get_string(::StringTools_obj::trim(key3).toLowerCase());
+HXDLIN( 491)				if (::hx::IsNotNull( str2 )) {
+HXLINE(  82)					key3 = str2;
             				}
-HXLINE( 490)				_hx_tmp14 = ::backend::Paths_obj::getPath((key2 + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),parentFolder1,null());
+HXLINE( 491)				_hx_tmp14 = ::backend::Paths_obj::getPath((key3 + HX_(".xml",69,3e,c3,1e)),HX_("TEXT",ad,94,ba,37),parentFolder1,null());
             			}
-HXDLIN( 490)			_hx_tmp13->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(imageLoaded1,_hx_tmp14));
-HXLINE( 491)			this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("BF idle dance",03,fa,cc,7f),24,true,null(),null());
-HXLINE( 492)			this->doko->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
-HXLINE( 493)			this->doko->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
-HXLINE( 494)			this->doko->set_visible(true);
-HXLINE( 496)			this->add(this->doko);
+HXDLIN( 491)			_hx_tmp13->set_frames(::flixel::graphics::frames::FlxAtlasFrames_obj::fromSparrow(imageLoaded1,_hx_tmp14));
+HXLINE( 492)			this->doko->animation->addByPrefix(HX_("idle",14,a7,b3,45),HX_("Idle",34,d3,8c,30),24,true,null(),null());
+HXLINE( 493)			this->doko->animation->play(HX_("idle",14,a7,b3,45),null(),null(),null());
+HXLINE( 494)			this->doko->set_antialiasing(::backend::ClientPrefs_obj::data->antialiasing);
+HXLINE( 495)			this->doko->set_visible(true);
+HXLINE( 497)			this->add(this->doko);
             		}
-HXLINE( 499)		::states::PlayState_obj::storyWeek = ::states::StoryMenuState_obj::curWeek;
-HXLINE( 501)		{
-HXLINE( 501)			 ::backend::WeekData week = null();
-HXDLIN( 501)			if (::hx::IsNull( week )) {
+HXLINE( 500)		::states::PlayState_obj::storyWeek = ::states::StoryMenuState_obj::curWeek;
+HXLINE( 502)		{
+HXLINE( 502)			 ::backend::WeekData week = null();
+HXDLIN( 502)			if (::hx::IsNull( week )) {
 HXLINE(  28)				week = ::backend::WeekData_obj::getCurrentWeek();
             			}
-HXLINE( 501)			::String diffStr = week->difficulties;
-HXDLIN( 501)			bool _hx_tmp15;
-HXDLIN( 501)			if (::hx::IsNotNull( diffStr )) {
-HXLINE( 501)				_hx_tmp15 = (diffStr.length > 0);
+HXLINE( 502)			::String diffStr = week->difficulties;
+HXDLIN( 502)			bool _hx_tmp15;
+HXDLIN( 502)			if (::hx::IsNotNull( diffStr )) {
+HXLINE( 502)				_hx_tmp15 = (diffStr.length > 0);
             			}
             			else {
-HXLINE( 501)				_hx_tmp15 = false;
+HXLINE( 502)				_hx_tmp15 = false;
             			}
-HXDLIN( 501)			if (_hx_tmp15) {
-HXLINE( 501)				::Array< ::String > diffs = ::StringTools_obj::trim(diffStr).split(HX_(",",2c,00,00,00));
-HXDLIN( 501)				int i = (diffs->length - 1);
-HXDLIN( 501)				while((i > 0)){
-HXLINE( 501)					if (::hx::IsNotNull( diffs->__get(i) )) {
-HXLINE( 501)						diffs[i] = ::StringTools_obj::trim(diffs->__get(i));
-HXDLIN( 501)						if ((diffs->__get(i).length < 1)) {
-HXLINE( 501)							diffs->remove(diffs->__get(i));
+HXDLIN( 502)			if (_hx_tmp15) {
+HXLINE( 502)				::Array< ::String > diffs = ::StringTools_obj::trim(diffStr).split(HX_(",",2c,00,00,00));
+HXDLIN( 502)				int i = (diffs->length - 1);
+HXDLIN( 502)				while((i > 0)){
+HXLINE( 502)					if (::hx::IsNotNull( diffs->__get(i) )) {
+HXLINE( 502)						diffs[i] = ::StringTools_obj::trim(diffs->__get(i));
+HXDLIN( 502)						if ((diffs->__get(i).length < 1)) {
+HXLINE( 502)							diffs->remove(diffs->__get(i));
             						}
             					}
-HXDLIN( 501)					i = (i - 1);
+HXDLIN( 502)					i = (i - 1);
             				}
-HXDLIN( 501)				bool _hx_tmp16;
-HXDLIN( 501)				if ((diffs->length > 0)) {
-HXLINE( 501)					_hx_tmp16 = (diffs->__get(0).length > 0);
+HXDLIN( 502)				bool _hx_tmp16;
+HXDLIN( 502)				if ((diffs->length > 0)) {
+HXLINE( 502)					_hx_tmp16 = (diffs->__get(0).length > 0);
             				}
             				else {
-HXLINE( 501)					_hx_tmp16 = false;
+HXLINE( 502)					_hx_tmp16 = false;
             				}
-HXDLIN( 501)				if (_hx_tmp16) {
-HXLINE( 501)					::backend::Difficulty_obj::list = diffs;
+HXDLIN( 502)				if (_hx_tmp16) {
+HXLINE( 502)					::backend::Difficulty_obj::list = diffs;
             				}
             			}
             			else {
-HXLINE( 501)				::backend::Difficulty_obj::list = ::backend::Difficulty_obj::defaultList->copy();
+HXLINE( 502)				::backend::Difficulty_obj::list = ::backend::Difficulty_obj::defaultList->copy();
             			}
             		}
-HXLINE( 502)		this->difficultySelectors->set_visible(unlocked);
-HXLINE( 504)		if (::backend::Difficulty_obj::list->contains(::backend::Difficulty_obj::defaultDifficulty)) {
-HXLINE( 505)			this->curDifficulty = ::Math_obj::round(::Math_obj::max(( (Float)(0) ),( (Float)(::backend::Difficulty_obj::defaultList->indexOf(::backend::Difficulty_obj::defaultDifficulty,null())) )));
+HXLINE( 503)		this->difficultySelectors->set_visible(unlocked);
+HXLINE( 505)		if (::backend::Difficulty_obj::list->contains(::backend::Difficulty_obj::defaultDifficulty)) {
+HXLINE( 506)			this->curDifficulty = ::Math_obj::round(::Math_obj::max(( (Float)(0) ),( (Float)(::backend::Difficulty_obj::defaultList->indexOf(::backend::Difficulty_obj::defaultDifficulty,null())) )));
             		}
             		else {
-HXLINE( 507)			this->curDifficulty = 0;
+HXLINE( 508)			this->curDifficulty = 0;
             		}
-HXLINE( 509)		int newPos = ::backend::Difficulty_obj::list->indexOf(::states::StoryMenuState_obj::lastDifficultyName,null());
-HXLINE( 511)		if ((newPos > -1)) {
-HXLINE( 513)			this->curDifficulty = newPos;
+HXLINE( 510)		int newPos = ::backend::Difficulty_obj::list->indexOf(::states::StoryMenuState_obj::lastDifficultyName,null());
+HXLINE( 512)		if ((newPos > -1)) {
+HXLINE( 514)			this->curDifficulty = newPos;
             		}
-HXLINE( 515)		this->updateText();
+HXLINE( 516)		this->updateText();
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(StoryMenuState_obj,changeWeek,(void))
 
 bool StoryMenuState_obj::weekIsLocked(::String name){
-            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_518_weekIsLocked)
-HXLINE( 519)		 ::backend::WeekData leWeek = ( ( ::backend::WeekData)(::backend::WeekData_obj::weeksLoaded->get(name)) );
-HXLINE( 520)		bool _hx_tmp;
-HXDLIN( 520)		if (!(leWeek->startUnlocked)) {
-HXLINE( 520)			_hx_tmp = (leWeek->weekBefore.length > 0);
+            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_519_weekIsLocked)
+HXLINE( 520)		 ::backend::WeekData leWeek = ( ( ::backend::WeekData)(::backend::WeekData_obj::weeksLoaded->get(name)) );
+HXLINE( 521)		bool _hx_tmp;
+HXDLIN( 521)		if (!(leWeek->startUnlocked)) {
+HXLINE( 521)			_hx_tmp = (leWeek->weekBefore.length > 0);
             		}
             		else {
-HXLINE( 520)			_hx_tmp = false;
+HXLINE( 521)			_hx_tmp = false;
             		}
-HXDLIN( 520)		if (_hx_tmp) {
-HXLINE( 520)			if (::states::StoryMenuState_obj::weekCompleted->exists(leWeek->weekBefore)) {
-HXLINE( 520)				return !(::states::StoryMenuState_obj::weekCompleted->get_bool(leWeek->weekBefore));
+HXDLIN( 521)		if (_hx_tmp) {
+HXLINE( 521)			if (::states::StoryMenuState_obj::weekCompleted->exists(leWeek->weekBefore)) {
+HXLINE( 521)				return !(::states::StoryMenuState_obj::weekCompleted->get_bool(leWeek->weekBefore));
             			}
             			else {
-HXLINE( 520)				return true;
+HXLINE( 521)				return true;
             			}
             		}
             		else {
-HXLINE( 520)			return false;
+HXLINE( 521)			return false;
             		}
-HXDLIN( 520)		return false;
+HXDLIN( 521)		return false;
             	}
 
 
 HX_DEFINE_DYNAMIC_FUNC1(StoryMenuState_obj,weekIsLocked,return )
 
 void StoryMenuState_obj::updateText(){
-            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_524_updateText)
-HXLINE( 525)		::Array< ::String > weekArray = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->weekCharacters;
-HXLINE( 526)		{
-HXLINE( 526)			int _g = 0;
-HXDLIN( 526)			int _g1 = this->grpWeekCharacters->length;
-HXDLIN( 526)			while((_g < _g1)){
-HXLINE( 526)				_g = (_g + 1);
-HXDLIN( 526)				int i = (_g - 1);
-HXLINE( 527)				Dynamic( this->grpWeekCharacters->members->__get(i)).StaticCast<  ::objects::MenuCharacter >()->changeCharacter(weekArray->__get(i));
+            	HX_STACKFRAME(&_hx_pos_bb97520c7169a052_525_updateText)
+HXLINE( 526)		::Array< ::String > weekArray = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->weekCharacters;
+HXLINE( 527)		{
+HXLINE( 527)			int _g = 0;
+HXDLIN( 527)			int _g1 = this->grpWeekCharacters->length;
+HXDLIN( 527)			while((_g < _g1)){
+HXLINE( 527)				_g = (_g + 1);
+HXDLIN( 527)				int i = (_g - 1);
+HXLINE( 528)				Dynamic( this->grpWeekCharacters->members->__get(i)).StaticCast<  ::objects::MenuCharacter >()->changeCharacter(weekArray->__get(i));
             			}
             		}
-HXLINE( 530)		 ::backend::WeekData leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >();
-HXLINE( 531)		::Array< ::String > stringThing = ::Array_obj< ::String >::__new(0);
-HXLINE( 532)		{
-HXLINE( 532)			int _g2 = 0;
-HXDLIN( 532)			int _g3 = leWeek->songs->get_length();
-HXDLIN( 532)			while((_g2 < _g3)){
-HXLINE( 532)				_g2 = (_g2 + 1);
-HXDLIN( 532)				int i1 = (_g2 - 1);
-HXLINE( 533)				stringThing->push(leWeek->songs->__get(i1)->__GetItem(0));
+HXLINE( 531)		 ::backend::WeekData leWeek = this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >();
+HXLINE( 532)		::Array< ::String > stringThing = ::Array_obj< ::String >::__new(0);
+HXLINE( 533)		{
+HXLINE( 533)			int _g2 = 0;
+HXDLIN( 533)			int _g3 = leWeek->songs->get_length();
+HXDLIN( 533)			while((_g2 < _g3)){
+HXLINE( 533)				_g2 = (_g2 + 1);
+HXDLIN( 533)				int i1 = (_g2 - 1);
+HXLINE( 534)				stringThing->push(leWeek->songs->__get(i1)->__GetItem(0));
             			}
             		}
-HXLINE( 536)		this->txtTracklist->set_text(HX_("",00,00,00,00));
-HXLINE( 537)		{
-HXLINE( 537)			int _g4 = 0;
-HXDLIN( 537)			int _g5 = stringThing->length;
-HXDLIN( 537)			while((_g4 < _g5)){
-HXLINE( 537)				_g4 = (_g4 + 1);
-HXDLIN( 537)				int i2 = (_g4 - 1);
-HXLINE( 539)				 ::flixel::text::FlxText fh = this->txtTracklist;
-HXDLIN( 539)				fh->set_text((fh->text + (stringThing->__get(i2) + HX_("\n",0a,00,00,00))));
+HXLINE( 537)		this->txtTracklist->set_text(HX_("",00,00,00,00));
+HXLINE( 538)		{
+HXLINE( 538)			int _g4 = 0;
+HXDLIN( 538)			int _g5 = stringThing->length;
+HXDLIN( 538)			while((_g4 < _g5)){
+HXLINE( 538)				_g4 = (_g4 + 1);
+HXDLIN( 538)				int i2 = (_g4 - 1);
+HXLINE( 540)				 ::flixel::text::FlxText fh = this->txtTracklist;
+HXDLIN( 540)				fh->set_text((fh->text + (stringThing->__get(i2) + HX_("\n",0a,00,00,00))));
             			}
             		}
-HXLINE( 542)		 ::flixel::text::FlxText _hx_tmp = this->txtTracklist;
-HXDLIN( 542)		_hx_tmp->set_text(this->txtTracklist->text.toUpperCase());
-HXLINE( 544)		{
-HXLINE( 544)			 ::flixel::text::FlxText _this = this->txtTracklist;
-HXDLIN( 544)			int axes = 1;
-HXDLIN( 544)			bool _hx_tmp1;
-HXDLIN( 544)			if ((axes != 1)) {
-HXLINE( 544)				_hx_tmp1 = (axes == 17);
+HXLINE( 543)		 ::flixel::text::FlxText _hx_tmp = this->txtTracklist;
+HXDLIN( 543)		_hx_tmp->set_text(this->txtTracklist->text.toUpperCase());
+HXLINE( 545)		{
+HXLINE( 545)			 ::flixel::text::FlxText _this = this->txtTracklist;
+HXDLIN( 545)			int axes = 1;
+HXDLIN( 545)			bool _hx_tmp1;
+HXDLIN( 545)			if ((axes != 1)) {
+HXLINE( 545)				_hx_tmp1 = (axes == 17);
             			}
             			else {
-HXLINE( 544)				_hx_tmp1 = true;
+HXLINE( 545)				_hx_tmp1 = true;
             			}
-HXDLIN( 544)			if (_hx_tmp1) {
-HXLINE( 544)				int _hx_tmp2 = ::flixel::FlxG_obj::width;
-HXDLIN( 544)				_this->set_x(((( (Float)(_hx_tmp2) ) - _this->get_width()) / ( (Float)(2) )));
+HXDLIN( 545)			if (_hx_tmp1) {
+HXLINE( 545)				int _hx_tmp2 = ::flixel::FlxG_obj::width;
+HXDLIN( 545)				_this->set_x(((( (Float)(_hx_tmp2) ) - _this->get_width()) / ( (Float)(2) )));
             			}
-HXDLIN( 544)			bool _hx_tmp3;
-HXDLIN( 544)			if ((axes != 16)) {
-HXLINE( 544)				_hx_tmp3 = (axes == 17);
+HXDLIN( 545)			bool _hx_tmp3;
+HXDLIN( 545)			if ((axes != 16)) {
+HXLINE( 545)				_hx_tmp3 = (axes == 17);
             			}
             			else {
-HXLINE( 544)				_hx_tmp3 = true;
+HXLINE( 545)				_hx_tmp3 = true;
             			}
-HXDLIN( 544)			if (_hx_tmp3) {
-HXLINE( 544)				int _hx_tmp4 = ::flixel::FlxG_obj::height;
-HXDLIN( 544)				_this->set_y(((( (Float)(_hx_tmp4) ) - _this->get_height()) / ( (Float)(2) )));
+HXDLIN( 545)			if (_hx_tmp3) {
+HXLINE( 545)				int _hx_tmp4 = ::flixel::FlxG_obj::height;
+HXDLIN( 545)				_this->set_y(((( (Float)(_hx_tmp4) ) - _this->get_height()) / ( (Float)(2) )));
             			}
             		}
-HXLINE( 545)		 ::flixel::text::FlxText fh1 = this->txtTracklist;
-HXDLIN( 545)		fh1->set_x((fh1->x - (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35))));
-HXLINE( 548)		this->intendedScore = ::backend::Highscore_obj::getWeekScore(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName,this->curDifficulty);
+HXLINE( 546)		 ::flixel::text::FlxText fh1 = this->txtTracklist;
+HXDLIN( 546)		fh1->set_x((fh1->x - (( (Float)(::flixel::FlxG_obj::width) ) * ((Float)0.35))));
+HXLINE( 549)		this->intendedScore = ::backend::Highscore_obj::getWeekScore(this->loadedWeeks->__get(::states::StoryMenuState_obj::curWeek).StaticCast<  ::backend::WeekData >()->fileName,this->curDifficulty);
             	}
 
 

@@ -31,6 +31,10 @@ class StoryMenuState extends MusicBeatState
 	var txtWeekTitle:FlxText;
 	var bgSprite:FlxSprite;
 
+	var offsetP:String;
+	var offset:String;
+	var offsetlines:String;
+
 	var doko:FlxSprite = new FlxSprite();
 	
 
@@ -203,13 +207,14 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist.color = 0xFFe55777;
 		add(txtTracklist);
 
-		doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw');
-		doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+		doko.frames = Paths.getSparrowAtlas('characters/m/pooh');
+		doko.animation.addByPrefix('idle', 'Idle', 24, true);
 		doko.animation.play('idle');
 		doko.antialiasing = ClientPrefs.data.antialiasing;
 		doko.visible = true;
 		doko.screenCenter(Y);
-		doko.x += 500;
+		doko.x += 800;
+		doko.flipX = true; 
 		add(doko);
 
 		changeWeek();
@@ -464,6 +469,9 @@ class StoryMenuState extends MusicBeatState
 		}
 
 		bgSprite.visible = true;
+		var oof:Int = Std.parseInt(offsetlines[0].trim());
+		var oof2:Int = Std.parseInt(offsetlines[1].trim());
+
 		var assetName:String = leWeek.fileName;
 		var assetName2:String = leWeek.weekBackground;
 		trace('DEBUG: assetName for book is: ' + assetName);
@@ -473,11 +481,18 @@ class StoryMenuState extends MusicBeatState
 			colorB.loadGraphic(Paths.image('color/debug'));
 			colorB.visible = true;
 
+			offsetP = Paths.file('images/characters/' + assetName);
+			offset = File.getContent(offsetP);
+			oof = Std.parseInt(lines[0].trim());
+			oof2 = Std.parseInt(lines[1].trim());
+
 			doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw');
-			doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+			doko.animation.addByPrefix('idle', 'Idle', 24, true);
 			doko.animation.play('idle');
 			doko.antialiasing = ClientPrefs.data.antialiasing;
 			doko.visible = true;
+			doko.x += oof;
+			doko.y += oof2;
 			add(doko);
 		} else {
 			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName2));
@@ -487,8 +502,8 @@ class StoryMenuState extends MusicBeatState
 			trace('DEBUG: assetName for bg is: ' + assetName);
 			colorB.visible = true;
 
-			doko.frames = Paths.getSparrowAtlas('characters/m/BOYFRIEND bw' );
-			doko.animation.addByPrefix('idle', 'BF idle dance', 24, true);
+			doko.frames = Paths.getSparrowAtlas('characters/m/' + assetName);
+			doko.animation.addByPrefix('idle', 'Idle', 24, true);
 			doko.animation.play('idle');
 			doko.antialiasing = ClientPrefs.data.antialiasing;
 			doko.visible = true;
