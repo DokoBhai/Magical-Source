@@ -1,0 +1,167 @@
+[openfl.display.Shader] ERROR: Error compiling fragment shader
+0(67) : warning C7022: unrecognized profile specifier "mediump"
+0(67) : warning C7022: unrecognized profile specifier "precision"
+0(71) : error C1038: declaration of "openfl_TextureCoordv" conflicts with previous declaration at 0(12)
+0(72) : error C1038: declaration of "bitmap" conflicts with previous declaration at 0(16)
+0(73) : error C1038: declaration of "iTime" conflicts with previous declaration at 0(60)
+0(74) : error C1038: declaration of "iResolution" conflicts with previous declaration at 0(59)
+
+#ifdef GL_ES
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+#endif
+
+varying float openfl_Alphav;
+		varying vec4 openfl_ColorMultiplierv;
+		varying vec4 openfl_ColorOffsetv;
+		varying vec2 openfl_TextureCoordv;
+
+		uniform bool openfl_HasColorTransform;
+		uniform vec2 openfl_TextureSize;
+		uniform sampler2D bitmap;
+
+		uniform bool hasTransform;
+		uniform bool hasColorTransform;
+
+		vec4 flixel_texture2D(sampler2D bitmap, vec2 coord)
+		{
+			vec4 color = texture2D(bitmap, coord);
+
+			if (!hasTransform)
+			{
+				return color;
+			}
+
+			if (color.a == 0.0)
+			{
+				return vec4(0.0, 0.0, 0.0, 0.0);
+			}
+
+			if (!hasColorTransform)
+			{
+				return color * openfl_Alphav;
+			}
+
+			color = vec4(color.rgb / color.a, color.a);
+
+			mat4 colorMultiplier = mat4(0);
+			colorMultiplier[0][0] = openfl_ColorMultiplierv.x;
+			colorMultiplier[1][1] = openfl_ColorMultiplierv.y;
+			colorMultiplier[2][2] = openfl_ColorMultiplierv.z;
+			colorMultiplier[3][3] = openfl_ColorMultiplierv.w;
+
+			color = clamp(openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);
+
+			if (color.a > 0.0)
+			{
+				return vec4(color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);
+			}
+
+			return vec4(0.0, 0.0, 0.0, 0.0);
+		}
+vec2 uv = openfl_TextureCoordv.xy;
+vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
+vec2 iResolution = openfl_TextureSize;
+uniform float iTime;
+#define iChannel0 bitmap
+#define texture flixel_texture2D
+#define fragColor gl_FragColor
+#define mainImage main
+
+// Psych Engine compatible Sparkle Shader
+precision mediump float;
+
+#define SPLAT_MULT 4.0
+
+varying vec2 openfl_TextureCoordv;
+uniform sampler2D bitmap;
+uniform float iTime;
+uniform vec2 iResolution;
+
+// --- Helper Functions (stubs, replace with your actual implementations) ---
+float hash12(vec2 p) {
+    return fract(sin(dot(p, vec2(12.9898, 78.233))) * 43758.5453);
+}
+vec3 hash32(vec2 p) {
+    return vec3(hash12(p), hash12(p + 1.0), hash12(p + 2.0));
+}
+vec4 hash43(vec3 p) {
+    return vec4(hash12(p.xy), hash12(p.yz), hash12(p.zx), hash12(p.xy + p.yz));
+}
+float sdStar(vec2 p, float r, float n, float m) {
+    // Simple star SDF stub
+    p = abs(p);
+    float a = atan(p.y, p.x) * n;
+    float d = cos(a) * m + r;
+    return length(p) - d;
+}
+vec3 hsl2rgb(float h, float s, float l) {
+    // Simple HSL to RGB stub
+    float c = (1.0 - abs(2.0 * l - 1.0)) * s;
+    float x = c * (1.0 - abs(mod(h * 6.0, 2.0) - 1.0));
+    float m = l - c / 2.0;
+    vec3 rgb;
+    if (h < 1.0/6.0) rgb = vec3(c, x, 0.0);
+    else if (h < 2.0/6.0) rgb = vec3(x, c, 0.0);
+    else if (h < 3.0/6.0) rgb = vec3(0.0, c, x);
+    else if (h < 4.0/6.0) rgb = vec3(0.0, x, c);
+    else if (h < 5.0/6.0) rgb = vec3(x, 0.0, c);
+    else rgb = vec3(c, 0.0, x);
+    return rgb + m;
+}
+
+vec2 rotateUV(in vec2 uv, in float rot) {
+    vec3 t = vec3(sin(rot), cos(rot), 0.0);
+    t.z = -t.x;
+    uv = t.yy * uv.xy + t.xz * uv.yx;
+    return uv;
+}
+
+vec3 sparkle(in vec2 p, in vec2 cell, in float phase) {
+    vec2 uv = p - 1.0;
+    vec4 rand = hash43(vec3(cell, floor((phase + 1.0) / 2.0)));
+    float rot = rand.w + sign(rand.w - 0.5) * phase * 1.3;
+    vec2 offset = rand.yz * 0.7;
+    uv = rotateUV(uv + offset, rot);
+    float size = rand.x;
+    float sizeMod = 0.5 * cos(phase * 3.14159265358979) + 0.5;
+    size *= sizeMod;
+    float d = sdStar(uv, 0.4 * size, 4.0, 0.6 - sizeMod * 0.3);
+    float star = smoothstep(-0.01, -0.02, d);
+    float glow = smoothstep(-0.1 + sizeMod * 0.2, -0.1, d) * 0.15;
+    vec3 col_a = hsl2rgb(fract(phase * 1.4), 1.0, 0.6);
+    vec3 col_b = vec3(1.0, 1.0, 1.0);
+    vec3 col = mix(col_a, col_b, sizeMod);
+    return col * vec3(star + glow);
+}
+
+vec3 sparkleLayer(in vec2 uv, in vec2 vel, in float phase) {
+    uv = uv + vel * iTime;
+    vec2 splatuv = fract(uv * SPLAT_MULT / 2.0);
+    vec2 cell = floor(uv * SPLAT_MULT / 2.0);
+    vec3 cellRand = hash32(cell);
+    float speed = 2.0;
+    vec3 col = sparkle(splatuv, cell, speed * iTime + hash12(cell) * 4.0 + phase);
+    col += sparkle(splatuv - vec2( 1, 0), cell + vec2( 1, 0), speed * iTime + hash12(cell + vec2( 1, 0)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2(-1, 0), cell + vec2(-1, 0), speed * iTime + hash12(cell + vec2(-1, 0)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2( 0, 1), cell + vec2( 0, 1), speed * iTime + hash12(cell + vec2( 0, 1)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2( 0,-1), cell + vec2( 0,-1), speed * iTime + hash12(cell + vec2( 0,-1)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2( 1, 1), cell + vec2( 1, 1), speed * iTime + hash12(cell + vec2( 1, 1)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2(-1, 1), cell + vec2(-1, 1), speed * iTime + hash12(cell + vec2(-1, 1)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2(-1,-1), cell + vec2(-1,-1), speed * iTime + hash12(cell + vec2(-1,-1)) * 4.0 + phase);
+    col += sparkle(splatuv - vec2( 1,-1), cell + vec2( 1,-1), speed * iTime + hash12(cell + vec2( 1,-1)) * 4.0 + phase);
+    return col;
+}
+
+void main() {
+    // Use openfl_TextureCoordv for UVs, scale to -1..1
+    vec2 fragCoord = openfl_TextureCoordv * iResolution;
+    vec2 uv = (fragCoord - iResolution * 0.5) / iResolution.yy * 2.0;
+    vec3 col = sparkleLayer(uv, vec2(0.2, 0.1), 0.0);
+    col += sparkleLayer(uv, vec2(-0.01, -0.13), 1.0);
+    col += sparkleLayer(uv, vec2(-0.06, 0.2), 2.0);
+    gl_FragColor = vec4(col, 1.0);
+}

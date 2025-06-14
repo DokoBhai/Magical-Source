@@ -2985,6 +2985,10 @@ HXDLIN(1320)		::String _hx_switch_0 = id;
 HXLINE(1330)			this->unsavedProgress = true;
 HXDLIN(1330)			goto _hx_goto_103;
             		}
+            		if (  (_hx_switch_0==::backend::ui::PsychUICheckBox_obj::CLICK_EVENT) ){
+HXLINE(1327)			this->unsavedProgress = true;
+HXDLIN(1327)			goto _hx_goto_103;
+            		}
             		if (  (_hx_switch_0==::backend::ui::PsychUIBox_obj::CLICK_EVENT) ||  (_hx_switch_0==::backend::ui::PsychUIRadioGroup_obj::CLICK_EVENT) ){
 HXLINE(1323)			bool _hx_tmp;
 HXDLIN(1323)			if (::hx::IsInstanceNotEq( sender,this->spriteListRadioGroup )) {
@@ -2997,10 +3001,6 @@ HXDLIN(1323)			if (_hx_tmp) {
 HXLINE(1324)				this->checkUIOnObject();
             			}
 HXLINE(1323)			goto _hx_goto_103;
-            		}
-            		if (  (_hx_switch_0==::backend::ui::PsychUICheckBox_obj::CLICK_EVENT) ){
-HXLINE(1327)			this->unsavedProgress = true;
-HXDLIN(1327)			goto _hx_goto_103;
             		}
             		_hx_goto_103:;
             	}

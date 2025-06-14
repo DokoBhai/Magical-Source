@@ -9782,16 +9782,16 @@ HX_DEFINE_DYNAMIC_FUNC1(ChartingState_obj,adaptNotesToNewTimes,(void))
 void ChartingState_obj::UIEvent(::String id, ::Dynamic sender){
             	HX_STACKFRAME(&_hx_pos_27e1ce861cc941c0_4757_UIEvent)
 HXDLIN(4757)		::String _hx_switch_0 = id;
+            		if (  (_hx_switch_0==::backend::ui::PsychUIDropDownMenu_obj::CLICK_EVENT) ||  (_hx_switch_0==::backend::ui::PsychUIButton_obj::CLICK_EVENT) ){
+HXLINE(4760)			this->ignoreClickForThisFrame = true;
+HXDLIN(4760)			goto _hx_goto_352;
+            		}
             		if (  (_hx_switch_0==::backend::ui::PsychUIBox_obj::CLICK_EVENT) ){
 HXLINE(4763)			this->ignoreClickForThisFrame = true;
 HXLINE(4764)			if (::hx::IsInstanceEq( sender,this->upperBox )) {
 HXLINE(4764)				this->updateUpperBoxBg();
             			}
 HXLINE(4762)			goto _hx_goto_352;
-            		}
-            		if (  (_hx_switch_0==::backend::ui::PsychUIDropDownMenu_obj::CLICK_EVENT) ||  (_hx_switch_0==::backend::ui::PsychUIButton_obj::CLICK_EVENT) ){
-HXLINE(4760)			this->ignoreClickForThisFrame = true;
-HXDLIN(4760)			goto _hx_goto_352;
             		}
             		if (  (_hx_switch_0==::backend::ui::PsychUIBox_obj::DROP_EVENT) ){
 HXLINE(4774)			this->chartEditorSave->data->__SetField(HX_("mainBoxPosition",1b,66,7b,2e),::cpp::VirtualArray_obj::__new(2)->init(0,this->mainBox->x)->init(1,this->mainBox->y),::hx::paccDynamic);
