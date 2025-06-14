@@ -12,7 +12,7 @@
 	],
 	"camera_opponent": [
 		150,
-		100
+		0
 	],
 	"girlfriend": [
 		920,
@@ -32,8 +32,8 @@
 		300
 	],
 	"opponent": [
-		500,
-		350
+		650,
+		575
 	],
 	"hide_girlfriend": false,
 	"directory": "",
