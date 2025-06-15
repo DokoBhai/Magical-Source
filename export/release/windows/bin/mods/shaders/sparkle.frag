@@ -1,12 +1,11 @@
 #pragma header
-vec2 uv = openfl_TextureCoordv.xy;
-vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
-vec2 iResolution = openfl_TextureSize;
+
 uniform float iTime;
-#define iChannel0 bitmap
-#define texture flixel_texture2D
-#define fragColor gl_FragColor
-#define mainImage main
+uniform float uFade;
+
+vec2 uv = openfl_TextureCoordv.xy;
+vec2 fragCoord = uv * openfl_TextureSize;
+vec2 iResolution = openfl_TextureSize;
 
 #ifdef GL_ES
 precision mediump float;
@@ -23,8 +22,6 @@ vec2 random2(vec2 par){
 
 void main()
 {
-    vec2 fragCoord = gl_FragCoord.xy;
-    vec2 uv = fragCoord / iResolution.xy;
     float widthHeightRatio = iResolution.x / iResolution.y;
     
     float t = iTime * 0.01;
@@ -35,7 +32,6 @@ void main()
     float phase;
     float rotationAngle = iTime * -0.01;
     
-    vec2 offset;
     vec2 local_uv;
     vec2 index;
     vec2 pos;
@@ -45,20 +41,21 @@ void main()
     mat2 rotation = mat2(cos(rotationAngle), -sin(rotationAngle), 
                          sin(rotationAngle),  cos(rotationAngle));
     
+    vec2 uv_centered = uv;
     for(float i = 0.0; i < layers; i++){
         depth = fract(i/layers + t);
         
         centre.x = 0.5 + 0.1 * cos(t) * depth;
         centre.y = 0.5 + 0.1 * sin(t) * depth;
         
-        uv = centre - fragCoord / iResolution.xy;
-        uv.y /= widthHeightRatio;
-        uv *= rotation;
-        uv *= mix(scale, 0.0, depth);
+        uv_centered = centre - uv;
+        uv_centered.y /= widthHeightRatio;
+        uv_centered *= rotation;
+        uv_centered *= mix(scale, 0.0, depth);
         
-        index = floor(uv);
+        index = floor(uv_centered);
         seed = 20.0 * i + index;
-        local_uv = fract(i + uv) - 0.5;
+        local_uv = fract(i + uv_centered) - 0.5;
         pos = 0.8 * (random2(seed) - 0.5);
         phase = 128.0 * random(seed);
         
@@ -66,5 +63,7 @@ void main()
               * min(1.0, depth * 2.0);
     }
     
-    gl_FragColor = vec4(vec3(dist), 0.0);
+    float glow = dist * uFade;
+    float alpha = smoothstep(0.05, 0.3, glow);
+    gl_FragColor = vec4(vec3(glow), alpha);
 }
