@@ -1,0 +1,132 @@
+[openfl.display.Shader] ERROR: Error compiling fragment shader
+0(70) : error C1038: declaration of "iTime" conflicts with previous declaration at 0(60)
+0(71) : error C1038: declaration of "iResolution" conflicts with previous declaration at 0(59)
+
+#ifdef GL_ES
+#ifdef GL_FRAGMENT_PRECISION_HIGH
+precision highp float;
+#else
+precision mediump float;
+#endif
+#endif
+
+varying float openfl_Alphav;
+		varying vec4 openfl_ColorMultiplierv;
+		varying vec4 openfl_ColorOffsetv;
+		varying vec2 openfl_TextureCoordv;
+
+		uniform bool openfl_HasColorTransform;
+		uniform vec2 openfl_TextureSize;
+		uniform sampler2D bitmap;
+
+		uniform bool hasTransform;
+		uniform bool hasColorTransform;
+
+		vec4 flixel_texture2D(sampler2D bitmap, vec2 coord)
+		{
+			vec4 color = texture2D(bitmap, coord);
+
+			if (!hasTransform)
+			{
+				return color;
+			}
+
+			if (color.a == 0.0)
+			{
+				return vec4(0.0, 0.0, 0.0, 0.0);
+			}
+
+			if (!hasColorTransform)
+			{
+				return color * openfl_Alphav;
+			}
+
+			color = vec4(color.rgb / color.a, color.a);
+
+			mat4 colorMultiplier = mat4(0);
+			colorMultiplier[0][0] = openfl_ColorMultiplierv.x;
+			colorMultiplier[1][1] = openfl_ColorMultiplierv.y;
+			colorMultiplier[2][2] = openfl_ColorMultiplierv.z;
+			colorMultiplier[3][3] = openfl_ColorMultiplierv.w;
+
+			color = clamp(openfl_ColorOffsetv + (color * colorMultiplier), 0.0, 1.0);
+
+			if (color.a > 0.0)
+			{
+				return vec4(color.rgb * color.a * openfl_Alphav, color.a * openfl_Alphav);
+			}
+
+			return vec4(0.0, 0.0, 0.0, 0.0);
+		}
+vec2 uv = openfl_TextureCoordv.xy;
+vec2 fragCoord = openfl_TextureCoordv*openfl_TextureSize;
+vec2 iResolution = openfl_TextureSize;
+uniform float iTime;
+#define iChannel0 bitmap
+#define texture flixel_texture2D
+#define fragColor gl_FragColor
+#define mainImage main
+
+#ifdef GL_ES
+precision mediump float;
+#endif
+
+uniform float iTime;
+uniform vec2 iResolution;
+
+float random(vec2 par){
+   return fract(sin(dot(par.xy, vec2(12.9898, 78.233))) * 43758.5453);
+}
+
+vec2 random2(vec2 par){
+    float rand = random(par);
+    return vec2(rand, random(par + rand));
+}
+
+void main()
+{
+    vec2 fragCoord = gl_FragCoord.xy;
+    vec2 uv = fragCoord / iResolution.xy;
+    float widthHeightRatio = iResolution.x / iResolution.y;
+    
+    float t = iTime * 0.01;
+    float dist = 0.0;
+    float layers = 16.0;
+    float scale = 32.0;
+    float depth;
+    float phase;
+    float rotationAngle = iTime * -0.01;
+    
+    vec2 offset;
+    vec2 local_uv;
+    vec2 index;
+    vec2 pos;
+    vec2 seed;
+    vec2 centre = vec2(0.5, 0.5);
+    
+    mat2 rotation = mat2(cos(rotationAngle), -sin(rotationAngle), 
+                         sin(rotationAngle),  cos(rotationAngle));
+    
+    for(float i = 0.0; i < layers; i++){
+        depth = fract(i/layers + t);
+        
+        centre.x = 0.5 + 0.1 * cos(t) * depth;
+        centre.y = 0.5 + 0.1 * sin(t) * depth;
+        
+        uv = centre - fragCoord / iResolution.xy;
+        uv.y /= widthHeightRatio;
+        uv *= rotation;
+        uv *= mix(scale, 0.0, depth);
+        
+        index = floor(uv);
+        seed = 20.0 * i + index;
+        local_uv = fract(i + uv) - 0.5;
+        pos = 0.8 * (random2(seed) - 0.5);
+        phase = 128.0 * random(seed);
+        
+        dist += pow(abs(1.0 - length(local_uv - pos)), 50.0 + 20.0 * sin(phase + 8.0 * iTime)) 
+              * min(1.0, depth * 2.0);
+    }
+    
+    gl_FragColor = vec4(vec3(dist), 1.0);
+}
