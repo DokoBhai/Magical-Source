@@ -17,12 +17,14 @@ function onCreate()
     setProperty("shadeSprite.alpha", 0)
     setProperty("shadeSprite.visible", true)
     setProperty('shadeSprite.angle', 180)
+    setProperty('shadeSprite.y', 1000)
     setShaderSampler2D("shadeSprite", "iChannel1", "noiseTex")
 end
 
 function onEvent(name,v1,v2)
     if name == 'Fire' then
-        setProperty('shadeSprite.alpha', 0.5)
+        setProperty('shadeSprite.alpha', 0.1)
+        doTweenY('slideY', 'shadeSprite', 0, 1.2, 'linear')
     end
 end
 
