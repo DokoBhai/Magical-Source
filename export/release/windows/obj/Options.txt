@@ -82,4 +82,4 @@ tjson=1.4.0
 tools=8.1.2
 utf16=1
 windows=1
-hxcpp=C:/Users/cmalm/Downloads/Magical-Showdown-Source-Code-main/Magical-Showdown-Source-Code-main/.haxelib/hxcpp/4,3,2/
+hxcpp=C:\Users\dokob\Documents\FNF-PsychEngine-main (1)\FNF-PsychEngine-main (1)\FNF-PsychEngine-main\.haxelib\hxcpp/4,3,2/

@@ -35,6 +35,13 @@ class FreeplayState extends MusicBeatState
 	var intendedScore:Int = 0;
 	var intendedRating:Float = 0;
 
+	var passwordBox:FlxSprite;
+	var passwordText:FlxText;
+	var inputText:FlxText;
+	var password:String = "bomboclat";
+	var playerInput:String = "";
+	var showingPasswordPrompt:Bool = false;	
+
 	private var grpSongs:FlxTypedGroup<Alphabet>;
 	private var curPlaying:Bool = false;
 
@@ -56,6 +63,10 @@ class FreeplayState extends MusicBeatState
 	{
 		//Paths.clearStoredMemory();
 		//Paths.clearUnusedMemory();
+
+		// Password UI (hidden by default)
+
+
 		
 		persistentUpdate = true;
 		PlayState.isStoryMode = false;
@@ -101,6 +112,7 @@ class FreeplayState extends MusicBeatState
 				addSong(song[0], i, song[1], FlxColor.fromRGB(colors[0], colors[1], colors[2]));
 			}
 		}
+		bomboclat();
 		Mods.loadTopMod();
 
 		bg = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
@@ -185,6 +197,21 @@ class FreeplayState extends MusicBeatState
 		
 		player = new MusicPlayer(this);
 		add(player);
+
+		passwordBox = new FlxSprite(100, 500).makeGraphic(1040, 150, FlxColor.BLACK);
+		passwordBox.alpha = 0.7;
+		passwordBox.visible = false;
+		add(passwordBox);
+
+		passwordText = new FlxText(120, 510, 1000, "Enter the password:", 32);
+		passwordText.setFormat("VCR OSD Mono", 32, FlxColor.WHITE, CENTER);
+		passwordText.visible = false;
+		add(passwordText);
+
+		inputText = new FlxText(120, 560, 1000, "", 32);
+		inputText.setFormat("VCR OSD Mono", 32, FlxColor.CYAN, CENTER);
+		inputText.visible = false;
+		add(inputText);
 		
 		changeSelection();
 		updateTexts();
@@ -222,6 +249,11 @@ class FreeplayState extends MusicBeatState
 
 		if (FlxG.sound.music.volume < 0.7)
 			FlxG.sound.music.volume += 0.5 * elapsed;
+
+		if (showingPasswordPrompt)
+			FlxG.sound.playMusic(Paths.music('pass'), 0);
+		else
+			FlxG.sound.playMusic(Paths.music('freakyMenu'), 0);
 
 		lerpScore = Math.floor(FlxMath.lerp(intendedScore, lerpScore, Math.exp(-elapsed * 24)));
 		lerpRating = FlxMath.lerp(intendedRating, lerpRating, Math.exp(-elapsed * 12));
@@ -271,7 +303,7 @@ class FreeplayState extends MusicBeatState
 					holdTime = 0;
 				}
 
-				if(controls.UI_DOWN || controls.UI_UP)
+				if(controls.UI_DOWN && !showingPasswordPrompt|| !showingPasswordPrompt && controls.UI_UP)
 				{
 					var checkLastHold:Int = Math.floor((holdTime - 0.5) * 10);
 					holdTime += elapsed;
@@ -288,7 +320,7 @@ class FreeplayState extends MusicBeatState
 				}
 			}
 
-			if (controls.UI_LEFT_P)
+			if (!showingPasswordPrompt && controls.UI_LEFT_P)
 			{
 				changeDiff(-1);
 				_updateSongLastDifficulty();
@@ -300,7 +332,7 @@ class FreeplayState extends MusicBeatState
 			}
 		}
 
-		if (controls.BACK)
+		if (!showingPasswordPrompt && controls.BACK)
 		{
 			if (player.playingMusic)
 			{
@@ -403,7 +435,7 @@ class FreeplayState extends MusicBeatState
 				player.pauseOrResume(!player.playing);
 			}
 		}
-		else if (controls.ACCEPT && !player.playingMusic)
+		else if (!showingPasswordPrompt && controls.ACCEPT && !player.playingMusic)
 		{
 			persistentUpdate = false;
 			var songLowercase:String = Paths.formatToSongPath(songs[curSelected].songName);
@@ -459,10 +491,75 @@ class FreeplayState extends MusicBeatState
 			FlxG.sound.play(Paths.sound('scrollMenu'));
 		}
 
+	if (showingPasswordPrompt)
+	{
+		handleKeyInput(); // This checks all keys pressed and updates playerInput
+
+		if (FlxG.keys.justPressed.BACKSPACE && playerInput.length > 0)
+		{
+			playerInput = playerInput.substr(0, playerInput.length - 1);
+			inputText.text = playerInput;
+		}
+
+		if (FlxG.keys.justPressed.ENTER)
+		{
+			if (playerInput == password)
+			{
+				passwordText.text = "Access Granted!";
+				MusicBeatState.resetState();
+				showingPasswordPrompt = false;
+				FlxG.save.data.secretSongUnlocked = true;
+				FlxG.save.flush();
+			}
+			else
+			{
+				passwordText.text = "Wrong Password. Try Again.";
+				playerInput = "";
+				inputText.text = "";
+			}
+		}
+
+		 // Block other inputs while password prompt is active
+	}
+
+
+		if (FlxG.keys.justPressed.BACKSPACE && playerInput.length > 0)
+		{
+			playerInput = playerInput.substr(0, playerInput.length - 1);
+			inputText.text = playerInput;
+		}
+
+		if (!showingPasswordPrompt && FlxG.keys.justPressed.M)
+		{
+			showingPasswordPrompt = true;
+			playerInput = "";
+			inputText.text = "";
+			passwordText.text = "Enter the password:";
+
+			passwordBox.visible = true;
+			passwordText.visible = true;
+			inputText.visible = true;
+		}
+
+
+		 // Block other Freeplay input while password is active
+	
+
+
 		updateTexts(elapsed);
 		super.update(elapsed);
 	}
 	
+	function bomboclat()
+	{
+		if (FlxG.save.data.secretSongUnlocked == true)
+			{
+				addSong('monochrome-steams', 1, 'dad', FlxColor.fromRGB(255, 100, 100));
+			}
+	}
+
+
+
 	function getVocalFromCharacter(char:String)
 	{
 		try
@@ -485,6 +582,21 @@ class FreeplayState extends MusicBeatState
 
 		if(opponentVocals != null) opponentVocals.stop();
 		opponentVocals = FlxDestroyUtil.destroy(opponentVocals);
+	}
+
+	function handleKeyInput()
+	{
+		var keys:String = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+		for (i in 0...keys.length)
+		{
+			var char:String = keys.charAt(i);
+			if (Reflect.getProperty(FlxG.keys.justPressed, char))
+			{
+				playerInput += char.toLowerCase(); // or .toUpperCase() if you prefer
+				inputText.text = playerInput;
+			}
+		}
 	}
 
 	function changeDiff(change:Int = 0)

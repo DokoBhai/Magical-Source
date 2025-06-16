@@ -79,6 +79,12 @@ class HXCPP_CLASS_ATTRIBUTES FreeplayState_obj : public  ::backend::MusicBeatSta
 		Float lerpRating;
 		int intendedScore;
 		Float intendedRating;
+		 ::flixel::FlxSprite passwordBox;
+		 ::flixel::text::FlxText passwordText;
+		 ::flixel::text::FlxText inputText;
+		::String password;
+		::String playerInput;
+		bool showingPasswordPrompt;
 		 ::flixel::group::FlxTypedGroup grpSongs;
 		bool curPlaying;
 		::Array< ::Dynamic> iconArray;
@@ -105,8 +111,14 @@ class HXCPP_CLASS_ATTRIBUTES FreeplayState_obj : public  ::backend::MusicBeatSta
 		bool stopMusicPlay;
 		void update(Float elapsed);
 
+		void bomboclat();
+		::Dynamic bomboclat_dyn();
+
 		::String getVocalFromCharacter(::String _hx_char);
 		::Dynamic getVocalFromCharacter_dyn();
+
+		void handleKeyInput();
+		::Dynamic handleKeyInput_dyn();
 
 		void changeDiff(::hx::Null< int >  change);
 		::Dynamic changeDiff_dyn();

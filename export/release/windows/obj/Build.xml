@@ -2938,6 +2938,7 @@
   </file>
   <file name="src/states/FreeplayState.cpp" >
    <depend name="include/EReg.h"/>
+   <depend name="include/Reflect.h"/>
    <depend name="include/Std.h"/>
    <depend name="include/StringTools.h"/>
    <depend name="include/backend/ClientPrefs.h"/>
@@ -2983,6 +2984,7 @@
    <depend name="include/flixel/tweens/misc/ColorTween.h"/>
    <depend name="include/flixel/tweens/misc/VarTween.h"/>
    <depend name="include/flixel/util/FlxDestroyUtil.h"/>
+   <depend name="include/flixel/util/FlxSave.h"/>
    <depend name="include/flixel/util/IFlxDestroyable.h"/>
    <depend name="include/flixel/util/IFlxPooled.h"/>
    <depend name="include/flixel/util/_FlxColor/FlxColor_Impl_.h"/>
@@ -18696,7 +18698,7 @@
 <include name="${haxelib:hxvlc}/project/Build.xml" />
 <include name="${haxelib:hxvlc}/project/Build.xml" />
 <include name="${haxelib:hxvlc}/project/Build.xml" />
-<set name="LINC_LUA_PATH" value="C:/Users/cmalm/Downloads/Magical-Showdown-Source-Code-main/Magical-Showdown-Source-Code-main/.haxelib/linc_luajit/git/"/>
+<set name="LINC_LUA_PATH" value="C:/Users/dokob/Documents/FNF-PsychEngine-main (1)/FNF-PsychEngine-main (1)/FNF-PsychEngine-main/.haxelib/linc_luajit/git/"/>
 <include name="${LINC_LUA_PATH}linc/linc_lua.xml" />
 <include name="${HXCPP}/src/hx/libs/std/Build.xml"/>
 <error value="Hxcpp is out of date - please update" unlessApi="430" />
