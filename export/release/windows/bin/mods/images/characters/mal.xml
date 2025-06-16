@@ -2,360 +2,335 @@
 <TextureAtlas imagePath="mal.png">
 	<!-- Created using the Spritesheet and XML generator -->
 	<!-- https://uncertainprod.github.io/FNF-Spritesheet-XML-generator-Web -->
-	<SubTexture name="Extra Pose0000" x="5694" y="926" width="792" height="919" frameX="-9" frameY="-16" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0001" x="5694" y="926" width="792" height="919" frameX="-9" frameY="-16" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0002" x="1608" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0003" x="2416" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0004" x="2416" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0005" x="4032" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0006" x="4032" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0007" x="4032" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0008" x="3224" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0009" x="3224" y="5548" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0010" x="3220" y="4623" width="822" height="902" frameX="2" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0011" x="3220" y="4623" width="822" height="902" frameX="2" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0012" x="6497" y="1810" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0013" x="6497" y="1810" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0014" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0015" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0016" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0017" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0018" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0019" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0020" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0021" x="6497" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0022" x="6497" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0023" x="6497" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0024" x="6497" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0025" x="6497" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0026" x="6497" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0027" x="6497" y="2715" width="814" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0028" x="6497" y="2715" width="814" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0029" x="5655" y="5548" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0030" x="5655" y="5548" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0031" x="4840" y="5548" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0032" x="4840" y="5548" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0033" x="4840" y="5548" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0034" x="4042" y="4623" width="823" height="895" frameX="2" frameY="-43" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0035" x="4042" y="4623" width="823" height="895" frameX="2" frameY="-43" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0036" x="1612" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0037" x="0" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0038" x="0" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0039" x="806" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0040" x="806" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0041" x="806" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0042" x="2418" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0043" x="2418" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0044" x="2418" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0045" x="2418" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0046" x="4030" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0047" x="4030" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0048" x="4030" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0049" x="4030" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0050" x="3224" y="6467" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0051" x="5694" y="3667" width="797" height="905" frameX="-7" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0052" x="5694" y="4572" width="797" height="905" frameX="-7" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0053" x="5694" y="2751" width="788" height="916" frameX="-11" frameY="2" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0054" x="5694" y="2751" width="788" height="916" frameX="-11" frameY="2" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0055" x="7312" y="2689" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0056" x="7312" y="2689" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0057" x="7312" y="2689" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0058" x="7312" y="2689" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0059" x="7312" y="4501" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0060" x="7312" y="4501" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0061" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0062" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0063" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0064" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0065" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0066" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0067" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0068" x="5694" y="1845" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0069" x="7312" y="5407" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0070" x="7312" y="5407" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0071" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0072" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0073" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0074" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0075" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0076" x="7312" y="3595" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0077" x="7312" y="867" width="796" height="911" frameX="-8" frameY="-3" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0078" x="7312" y="1778" width="796" height="911" frameX="-8" frameY="-3" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0079" x="4836" y="6467" width="810" height="881" frameX="-3" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0080" x="5646" y="6467" width="810" height="881" frameX="-3" frameY="-31" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0081" x="6424" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0082" x="6424" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0083" x="1606" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0084" x="1606" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0085" x="1606" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0086" x="4818" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0087" x="4818" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0088" x="4818" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0089" x="4818" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0090" x="4015" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0091" x="4015" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0092" x="0" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0093" x="803" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0094" x="803" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0095" x="803" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0096" x="803" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0097" x="2409" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0098" x="2409" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0099" x="2409" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0100" x="2409" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0101" x="7227" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0102" x="7227" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0103" x="3212" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0104" x="3212" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0105" x="3212" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0106" x="3212" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0107" x="3212" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0108" x="8935" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0109" x="8935" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0110" x="8935" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0111" x="8935" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0112" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0113" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0114" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0115" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0116" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0117" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0118" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0119" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0120" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0121" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0122" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0123" x="8935" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0124" x="5621" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0125" x="5621" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0126" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0127" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0128" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0129" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0130" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0131" x="8030" y="7364" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0132" x="4865" y="4623" width="803" height="892" frameX="-4" frameY="-20" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0133" x="4865" y="4623" width="803" height="892" frameX="-4" frameY="-20" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0134" x="804" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0135" x="4885" y="1841" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0136" x="1608" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0137" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0138" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0139" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0140" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0141" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0142" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0143" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0144" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0145" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0146" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0147" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0148" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0149" x="2461" y="928" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0150" x="4885" y="2766" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0151" x="4885" y="2766" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0152" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0153" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0154" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0155" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0156" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0157" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0158" x="0" y="4623" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0159" x="4885" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0160" x="4885" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0161" x="3269" y="1856" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0162" x="3269" y="1856" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0163" x="809" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0164" x="809" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0165" x="4045" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0166" x="4045" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0167" x="4045" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0168" x="4045" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0169" x="3236" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0170" x="3236" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0171" x="3236" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0172" x="3236" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0173" x="2427" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0174" x="2427" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0175" x="2427" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0176" x="2427" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0177" x="1618" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0178" x="1618" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0179" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0180" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0181" x="3236" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0182" x="3236" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0183" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0184" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0185" x="809" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0186" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0187" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0188" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0189" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0190" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0191" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0192" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0193" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0194" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0195" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0196" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0197" x="2412" y="4623" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0198" x="1618" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0199" x="1618" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0200" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0201" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0202" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0203" x="0" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0204" x="2427" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0205" x="2427" y="2782" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0206" x="4076" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0207" x="4076" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0208" x="4076" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0209" x="4076" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0210" x="4076" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0211" x="4076" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0212" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0213" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0214" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0215" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0216" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0217" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0218" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0219" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0220" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0221" x="4076" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0222" x="4076" y="2763" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0223" x="4076" y="2763" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0224" x="4885" y="920" width="808" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0225" x="4885" y="920" width="808" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0226" x="4885" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0227" x="4885" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0228" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0229" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0230" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0231" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0232" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0233" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0234" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0235" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0236" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0237" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0238" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0239" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0240" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0241" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0242" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0243" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0244" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0245" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0246" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0247" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0248" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0249" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0250" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0251" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0252" x="0" y="3703" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0253" x="3269" y="0" width="807" height="927" frameX="-4" frameY="-32" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0254" x="3269" y="0" width="807" height="927" frameX="-4" frameY="-32" frameWidth="819" frameHeight="958"/>
-	<SubTexture name="Extra Pose0255" x="2461" y="0" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0256" x="2461" y="0" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0257" x="0" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0258" x="0" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0259" x="0" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0260" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0261" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0262" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0263" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0264" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0265" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0266" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0267" x="0" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0268" x="808" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0269" x="808" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0270" x="808" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0271" x="808" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0272" x="1616" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0273" x="1616" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0274" x="2424" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0275" x="2424" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0276" x="2424" y="1854" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0277" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0278" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0279" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0280" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0281" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0282" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0283" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0284" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0285" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0286" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0287" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0288" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0289" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0290" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0291" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0292" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0293" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0294" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0295" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0296" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0297" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0298" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0299" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0300" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Extra Pose0301" x="1616" y="926" width="808" height="928" frameX="2" frameY="2" frameWidth="804" frameHeight="924"/>
-	<SubTexture name="Down0000" x="7312" y="0" width="838" height="867" frameX="2" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0001" x="7312" y="0" width="838" height="867" frameX="2" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0002" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0003" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0004" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0005" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0006" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0007" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0008" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
-	<SubTexture name="Down0009" x="6456" y="6467" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Extra pose0000" x="5691" y="926" width="792" height="919" frameX="-9" frameY="-16" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0001" x="5691" y="926" width="792" height="919" frameX="-9" frameY="-16" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0002" x="3224" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0003" x="4032" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0004" x="4032" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0005" x="1608" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0006" x="1608" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0007" x="1608" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0008" x="2416" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0009" x="2416" y="5550" width="808" height="913" frameX="-3" frameY="-22" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0010" x="2416" y="4625" width="822" height="902" frameX="2" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0011" x="2416" y="4625" width="822" height="902" frameX="2" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0012" x="6494" y="1810" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0013" x="6494" y="1810" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0014" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0015" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0016" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0017" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0018" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0019" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0020" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0021" x="5655" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0022" x="6494" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0023" x="6494" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0024" x="6494" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0025" x="6494" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0026" x="6494" y="0" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0027" x="6494" y="2715" width="814" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0028" x="6494" y="2715" width="814" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0029" x="6494" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0030" x="6494" y="905" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0031" x="4840" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0032" x="4840" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0033" x="4840" y="5550" width="815" height="905" frameX="-1" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0034" x="3238" y="4625" width="823" height="895" frameX="2" frameY="-43" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0035" x="3238" y="4625" width="823" height="895" frameX="2" frameY="-43" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0036" x="3224" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0037" x="2418" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0038" x="2418" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0039" x="0" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0040" x="0" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0041" x="0" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0042" x="806" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0043" x="806" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0044" x="806" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0045" x="806" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0046" x="4030" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0047" x="4030" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0048" x="4030" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0049" x="4030" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0050" x="1612" y="6469" width="806" height="897" frameX="-4" frameY="-41" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0051" x="7309" y="3634" width="797" height="905" frameX="-7" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0052" x="7309" y="4539" width="797" height="905" frameX="-7" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0053" x="7309" y="2718" width="788" height="916" frameX="-11" frameY="2" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0054" x="7309" y="2718" width="788" height="916" frameX="-11" frameY="2" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0055" x="7309" y="906" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0056" x="7309" y="906" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0057" x="7309" y="906" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0058" x="7309" y="906" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0059" x="7309" y="0" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0060" x="7309" y="0" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0061" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0062" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0063" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0064" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0065" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0066" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0067" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0068" x="7309" y="1812" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0069" x="5691" y="4573" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0070" x="5691" y="4573" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0071" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0072" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0073" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0074" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0075" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0076" x="5691" y="3667" width="800" height="906" frameX="-6" frameY="-8" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0077" x="5691" y="1845" width="796" height="911" frameX="-8" frameY="-3" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0078" x="5691" y="2756" width="796" height="911" frameX="-8" frameY="-3" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0079" x="5639" y="6469" width="810" height="881" frameX="-3" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0080" x="6449" y="6469" width="810" height="881" frameX="-3" frameY="-31" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0081" x="0" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0082" x="0" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0083" x="8109" y="3548" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0084" x="8109" y="3548" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0085" x="8109" y="3548" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0086" x="8109" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0087" x="8109" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0088" x="8109" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0089" x="8109" y="1774" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0090" x="2409" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0091" x="2409" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0092" x="8109" y="4435" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0093" x="8109" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0094" x="8109" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0095" x="8109" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0096" x="8109" y="887" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0097" x="4015" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0098" x="4015" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0099" x="4015" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0100" x="4015" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0101" x="1606" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0102" x="1606" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0103" x="3212" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0104" x="3212" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0105" x="3212" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0106" x="3212" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0107" x="3212" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0108" x="803" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0109" x="803" y="7366" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0110" x="8109" y="2661" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0111" x="8109" y="2661" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0112" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0113" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0114" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0115" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0116" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0117" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0118" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0119" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0120" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0121" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0122" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0123" x="8109" y="0" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0124" x="8109" y="5322" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0125" x="8109" y="5322" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0126" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0127" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0128" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0129" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0130" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0131" x="8109" y="6209" width="803" height="887" frameX="-5" frameY="-25" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0132" x="4836" y="6469" width="803" height="892" frameX="-4" frameY="-20" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0133" x="4836" y="6469" width="803" height="892" frameX="-4" frameY="-20" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0134" x="4882" y="1841" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0135" x="4882" y="2766" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0136" x="804" y="4625" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0137" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0138" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0139" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0140" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0141" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0142" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0143" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0144" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0145" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0146" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0147" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0148" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0149" x="2461" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0150" x="3269" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0151" x="3269" y="929" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0152" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0153" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0154" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0155" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0156" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0157" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0158" x="4882" y="3691" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0159" x="0" y="4625" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0160" x="0" y="4625" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0161" x="3269" y="1854" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0162" x="3269" y="1854" width="804" height="925" frameX="-4" frameY="-34" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0163" x="2427" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0164" x="2427" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0165" x="4045" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0166" x="4045" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0167" x="4045" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0168" x="4045" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0169" x="809" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0170" x="809" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0171" x="809" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0172" x="809" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0173" x="4882" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0174" x="4882" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0175" x="4882" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0176" x="4882" y="0" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0177" x="3236" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0178" x="3236" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0179" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0180" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0181" x="2427" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0182" x="2427" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0183" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0184" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0185" x="3236" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0186" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0187" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0188" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0189" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0190" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0191" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0192" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0193" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0194" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0195" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0196" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0197" x="1608" y="4625" width="808" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0198" x="1618" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0199" x="1618" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0200" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0201" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0202" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0203" x="4073" y="921" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0204" x="809" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0205" x="809" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0206" x="4073" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0207" x="4073" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0208" x="4073" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0209" x="4073" y="0" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0210" x="0" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0211" x="0" y="2784" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0212" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0213" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0214" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0215" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0216" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0217" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0218" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0219" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0220" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0221" x="4073" y="1842" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0222" x="4073" y="2763" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0223" x="4073" y="2763" width="809" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0224" x="4882" y="920" width="808" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0225" x="4882" y="920" width="808" height="921" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0226" x="0" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0227" x="0" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0228" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0229" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0230" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0231" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0232" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0233" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0234" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0235" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0236" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0237" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0238" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0239" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0240" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0241" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0242" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0243" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0244" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0245" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0246" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0247" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0248" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0249" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0250" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0251" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0252" x="1618" y="3705" width="809" height="920" frameX="-3" frameY="-39" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0253" x="2423" y="1855" width="807" height="927" frameX="-4" frameY="-32" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0254" x="2423" y="1855" width="807" height="927" frameX="-4" frameY="-32" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0255" x="0" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0256" x="0" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0257" x="0" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0258" x="0" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0259" x="0" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0260" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0261" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0262" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0263" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0264" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0265" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0266" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0267" x="808" y="1855" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0268" x="808" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0269" x="808" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0270" x="2461" y="0" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0271" x="2461" y="0" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0272" x="1616" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0273" x="1616" y="926" width="808" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0274" x="1616" y="1855" width="807" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0275" x="1616" y="1855" width="807" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Extra pose0276" x="1616" y="1855" width="807" height="929" frameX="-4" frameY="-30" frameWidth="819" frameHeight="958"/>
+	<SubTexture name="Down0000" x="4061" y="4625" width="838" height="867" frameX="2" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0001" x="4061" y="4625" width="838" height="867" frameX="2" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0002" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0003" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0004" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0005" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0006" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0007" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0008" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
+	<SubTexture name="Down0009" x="7259" y="6469" width="818" height="867" frameX="-6" frameY="2" frameWidth="834" frameHeight="863"/>
 	<SubTexture name="Idle0000" x="0" y="0" width="822" height="926" frameX="2" frameY="-5" frameWidth="818" frameHeight="929"/>
 	<SubTexture name="Idle0001" x="0" y="0" width="822" height="926" frameX="2" frameY="-5" frameWidth="818" frameHeight="929"/>
 	<SubTexture name="Idle0002" x="822" y="0" width="822" height="922" frameX="2" frameY="-8" frameWidth="818" frameHeight="929"/>
 	<SubTexture name="Idle0003" x="822" y="0" width="822" height="922" frameX="2" frameY="-8" frameWidth="818" frameHeight="929"/>
 	<SubTexture name="Idle0004" x="1644" y="0" width="817" height="922" frameX="0" frameY="-3" frameWidth="818" frameHeight="929"/>
 	<SubTexture name="Idle0005" x="1644" y="0" width="817" height="922" frameX="0" frameY="-3" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0006" x="804" y="5548" width="804" height="918" frameX="-4" frameY="0" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0007" x="804" y="5548" width="804" height="918" frameX="-4" frameY="0" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0008" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0009" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0010" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0011" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0012" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Idle0013" x="0" y="5548" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
-	<SubTexture name="Left0000" x="6497" y="4537" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0001" x="6497" y="4537" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0002" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0003" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0004" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0005" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0006" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0007" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0008" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Left0009" x="6497" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
-	<SubTexture name="Right0000" x="3269" y="927" width="804" height="929" frameX="2" frameY="1" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0001" x="3269" y="927" width="804" height="929" frameX="2" frameY="1" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0002" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0003" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0004" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0005" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0006" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0007" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0008" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Right0009" x="5694" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
-	<SubTexture name="Up0000" x="6497" y="3620" width="798" height="917" frameX="2" frameY="2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0001" x="6497" y="3620" width="798" height="917" frameX="2" frameY="2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0002" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0003" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0004" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0005" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0006" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0007" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0008" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
-	<SubTexture name="Up0009" x="8150" y="0" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Idle0006" x="804" y="5550" width="804" height="918" frameX="-4" frameY="0" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0007" x="804" y="5550" width="804" height="918" frameX="-4" frameY="0" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0008" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0009" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0010" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0011" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0012" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Idle0013" x="0" y="5550" width="804" height="919" frameX="-4" frameY="1" frameWidth="818" frameHeight="929"/>
+	<SubTexture name="Left0000" x="6494" y="4537" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0001" x="6494" y="4537" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0002" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0003" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0004" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0005" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0006" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0007" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0008" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Left0009" x="6494" y="5448" width="802" height="911" frameX="2" frameY="2" frameWidth="798" frameHeight="907"/>
+	<SubTexture name="Right0000" x="3269" y="0" width="804" height="929" frameX="2" frameY="1" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0001" x="3269" y="0" width="804" height="929" frameX="2" frameY="1" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0002" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0003" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0004" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0005" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0006" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0007" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0008" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Right0009" x="5691" y="0" width="803" height="926" frameX="1" frameY="-5" frameWidth="801" frameHeight="930"/>
+	<SubTexture name="Up0000" x="6494" y="3620" width="798" height="917" frameX="2" frameY="2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0001" x="6494" y="3620" width="798" height="917" frameX="2" frameY="2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0002" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0003" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0004" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0005" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0006" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0007" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0008" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
+	<SubTexture name="Up0009" x="7309" y="5444" width="785" height="914" frameX="-3" frameY="-2" frameWidth="794" frameHeight="915"/>
 </TextureAtlas>
