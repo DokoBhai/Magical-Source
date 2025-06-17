@@ -2402,11 +2402,11 @@ void DialogueCharacterEditorState_obj::__boot()
 {
 {
             	HX_STACKFRAME(&_hx_pos_bf8bb9c74f598b94_23_boot)
-HXDLIN(  23)		TIP_TEXT_MAIN = HX_("JKLI - Move camera (Hold Shift to move 4x faster)\r\n\t\nQ/E - Zoom out/in\r\n\t\nR - Reset Camera\r\n\t\nH - Toggle Speech Bubble\r\n\t\nSpace - Reset text",c8,a8,01,a0);
+HXDLIN(  23)		TIP_TEXT_MAIN = HX_("JKLI - Move camera (Hold Shift to move 4x faster)\n\t\nQ/E - Zoom out/in\n\t\nR - Reset Camera\n\t\nH - Toggle Speech Bubble\n\t\nSpace - Reset text",22,20,84,b1);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_bf8bb9c74f598b94_30_boot)
-HXDLIN(  30)		TIP_TEXT_OFFSET = HX_("JKLI - Move camera (Hold Shift to move 4x faster)\r\n\t\nQ/E - Zoom out/in\r\n\t\nR - Reset Camera\r\n\t\nH - Toggle Ghosts\r\n\t\nWASD - Move Looping animation offset (Red)\r\n\t\nArrow Keys - Move Idle/Finished animation offset (Blue)\r\n\t\nHold Shift to move offsets 10x faster",10,fb,15,5a);
+HXDLIN(  30)		TIP_TEXT_OFFSET = HX_("JKLI - Move camera (Hold Shift to move 4x faster)\n\t\nQ/E - Zoom out/in\n\t\nR - Reset Camera\n\t\nH - Toggle Ghosts\n\t\nWASD - Move Looping animation offset (Red)\n\t\nArrow Keys - Move Idle/Finished animation offset (Blue)\n\t\nHold Shift to move offsets 10x faster",3a,70,f5,57);
             	}
 {
             	HX_STACKFRAME(&_hx_pos_bf8bb9c74f598b94_359_boot)

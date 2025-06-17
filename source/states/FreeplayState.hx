@@ -554,7 +554,7 @@ class FreeplayState extends MusicBeatState
 	{
 		if (FlxG.save.data.secretSongUnlocked == true)
 			{
-				addSong('monochrome-steams', 1, 'dad', FlxColor.fromRGB(255, 100, 100));
+				addSong('monochrome-steams', 1, 'mickey', FlxColor.fromRGB(255, 100, 100));
 			}
 	}
 

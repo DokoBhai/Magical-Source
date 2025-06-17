@@ -354,7 +354,7 @@ HXLINE(  52)			_hx_tmp1 = (HX_("assets/",4c,2a,dc,36) + folderKey);
 HXDLIN(  52)		_hx_tmp->setFormat(_hx_tmp1,32,-1,HX_("center",d5,25,db,05),null(),null(),null());
 HXLINE(  53)		this->txtOffsets->set_alpha(((Float)0.7));
 HXLINE(  54)		this->add(this->txtOffsets);
-HXLINE(  56)		 ::flixel::text::FlxText tipText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,540,::flixel::FlxG_obj::width,HX_("Arrow Keys - Change Offset (Hold shift for 10x speed)\r\n\t\t\t\nSpace - Play \"Start Press\" animation (Boyfriend Character Type)",fc,85,29,10),16,null());
+HXLINE(  56)		 ::flixel::text::FlxText tipText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,540,::flixel::FlxG_obj::width,HX_("Arrow Keys - Change Offset (Hold shift for 10x speed)\n\t\t\t\nSpace - Play \"Start Press\" animation (Boyfriend Character Type)",67,59,5a,b5),16,null());
 HXLINE(  59)		::String key1 = (HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82));
 HXDLIN(  59)		::Dynamic this2 = ::backend::Language_obj::phrases;
 HXDLIN(  59)		::String str1 = ( ( ::haxe::ds::StringMap)(this2) )->get_string(::StringTools_obj::trim(key1).toLowerCase());

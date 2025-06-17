@@ -1365,7 +1365,7 @@ HXLINE( 557)						color1 = Alpha;
             				}
 HXDLIN( 557)				color = (color | (color1 << 24));
             			}
-HXDLIN( 557)			this->addSong(HX_("monochrome-steams",93,c3,0b,b9),1,HX_("dad",47,36,4c,00),color);
+HXDLIN( 557)			this->addSong(HX_("monochrome-steams",93,c3,0b,b9),1,HX_("mickey",78,e6,ba,4b),color);
             		}
             	}
 
