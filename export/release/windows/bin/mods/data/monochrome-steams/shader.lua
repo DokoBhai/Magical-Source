@@ -1,29 +1,60 @@
-luaDebugMode = true
-
-local shaderEnabled = true  -- enable the shader from start
-
+local shaderName = "TV"
 function onCreate()
-    -- Initialize your shader (must be in your assets/shaders folder)
-    initLuaShader("TV")
+    shaderCoordFix() -- initialize a fix for textureCoord when resizing game window
 
-    -- Create a sprite that covers the screen and apply the shader
-    makeLuaSprite("shadeSprite")
-    makeGraphic("shadeSprite", screenWidth, screenHeight, nil) -- nil = transparent
-    setSpriteShader("shadeSprite", "TV")
-    setObjectCamera("shadeSprite", "hud")
-    addLuaSprite("shadeSprite", true)
+    makeLuaSprite("TV")
+    makeGraphic("shaderImage", screenWidth, screenHeight)
+    addLuaSprite("shaderImage", true) -- Add the sprite to the stage so it exists in Haxe
 
-    -- Make sure alpha is full and visible
-    setProperty("shadeSprite.alpha", 0.7)
-    setProperty("shadeSprite.visible", true)
+    setSpriteShader("shaderImage", "TV")
 
 
-    setShaderSampler2D("shadeSprite", "iChannel1", "noiseTex")
+    runHaxeCode([[
+        var shaderName = "]] .. shaderName .. [[";
+        
+        game.initLuaShader(shaderName);
+        
+        var shader0 = game.createRuntimeShader(shaderName);
+        game.camGame.setFilters([new ShaderFilter(shader0)]);
+        if (game.getLuaObject("shaderImage") != null) {
+            game.getLuaObject("shaderImage").shader = shader0;
+            game.camHUD.setFilters([new ShaderFilter(game.getLuaObject("shaderImage").shader)]);
+        } else {
+            trace('shaderImage sprite not found when setting shader!');
+        }
+        return;
+    ]])
 end
 
 function onUpdate(elapsed)
-    if shaderEnabled then
-        -- Update iTime uniform each frame using the current song position in seconds
-        setShaderFloat("shadeSprite", "iTime", getSongPosition() / 1000)
+    setShaderFloat("TV", "iTime", os.clock())
+ end
+
+function shaderCoordFix()
+    runHaxeCode([[
+        resetCamCache = function(?spr) {
+            if (spr == null || spr.filters == null) return;
+            spr.__cacheBitmap = null;
+            spr.__cacheBitmapData = null;
+        }
+        
+        fixShaderCoordFix = function(?_) {
+            resetCamCache(game.camGame.flashSprite);
+            resetCamCache(game.camHUD.flashSprite);
+            resetCamCache(game.camOther.flashSprite);
+        }
+    
+        FlxG.signals.gameResized.add(fixShaderCoordFix);
+        fixShaderCoordFix();
+        return;
+    ]])
+    
+    local temp = onDestroy
+    function onDestroy()
+        runHaxeCode([[
+            FlxG.signals.gameResized.remove(fixShaderCoordFix);
+            return;
+        ]])
+        if (temp) then temp() end
     end
 end

@@ -168,7 +168,7 @@ HXLINE(  21)		this->add(this->bg);
 HXLINE(  23)		this->texts =  ::flixel::group::FlxTypedSpriteGroup_obj::__alloc( HX_CTX ,null(),null(),null());
 HXLINE(  24)		this->texts->set_alpha(((Float)0.0));
 HXLINE(  25)		this->add(this->texts);
-HXLINE(  27)		 ::flixel::text::FlxText warnText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,::flixel::FlxG_obj::width,HX_("Hey, watch out!\n\n\t\t\tThis Mod contains some flashing lights!\n\n\t\t\tDo you wish to disable them?",26,80,ea,ca),null(),null());
+HXLINE(  27)		 ::flixel::text::FlxText warnText =  ::flixel::text::FlxText_obj::__alloc( HX_CTX ,0,0,::flixel::FlxG_obj::width,HX_("Hey, watch out!\n\r\n\t\t\tThis Mod contains some flashing lights!\n\r\n\t\t\tDo you wish to disable them?",76,b7,a6,87),null(),null());
 HXLINE(  31)		::String key = (HX_("fonts/",eb,13,ef,fa) + HX_("vcr.ttf",9d,d2,a7,82));
 HXDLIN(  31)		::Dynamic this1 = ::backend::Language_obj::phrases;
 HXDLIN(  31)		::String str = ( ( ::haxe::ds::StringMap)(this1) )->get_string(::StringTools_obj::trim(key).toLowerCase());
