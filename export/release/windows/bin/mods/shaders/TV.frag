@@ -11,30 +11,6 @@ uniform sampler2D iChannel1;
 uniform sampler2D iChannel2;
 uniform sampler2D iChannel3;
 
-#define VIG
-
-float threshold(float v, float t) {
-    return v > t ? 1.0 : 0.0;
-}
-
-float rand2d(vec2 co){
-    return fract(sin(dot(co.xy ,vec2(12.9898,78.233))) * 43758.5453);
-}
-
-float rand(float n) {
-    return fract(sin(n) * 43758.5453123);
-}
-
-float snoise(float x) {
-    return fract(sin(x) * 43758.5453);
-}
-
-float noise(float x) {
-    return fract(sin(x) * 43758.5453);
-}
-
-float FREQUENCY = 11.0;
-
 vec2 curve(vec2 uv)
 {
 	uv = (uv - 0.5) * 2.0;
