@@ -1,0 +1,36 @@
+{
+	"storyName": "Stitch",
+	"difficulties": "",
+	"hideFreeplay": false,
+	"weekBackground": "stage",
+	"weekBefore": "tutorial",
+	"startUnlocked": true,
+	"songs": [
+		[
+			"experimental",
+			"stitch",
+			[
+				126,
+				60,
+				255
+			]
+		],
+		[
+			"outworld",
+			"stitch",
+			[
+				126,
+				60,
+				255
+			]
+		]
+	],
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"hiddenUntilUnlocked": false,
+	"weekName": "Custom Week"
+}

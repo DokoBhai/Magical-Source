@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Lime Test (cpp)",
+      "type": "shell",
+      "command": "lime",
+      "args": [
+        "test",
+        "cpp"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "detail": "Compiles and runs using lime test cpp"
+    }
+  ]
+}
