@@ -1153,14 +1153,14 @@ HXDLIN( 475)			_hx_tmp12->loadGraphic(::backend::Paths_obj::image((HX_("color/",
 HXLINE( 476)			::haxe::Log_obj::trace((HX_("DEBUG: assetName for bg is: ",b6,fd,b1,70) + assetName),::hx::SourceInfo(HX_("source/states/StoryMenuState.hx",28,99,e6,49),476,HX_("states.StoryMenuState",09,2f,42,21),HX_("changeWeek",84,95,3e,29)));
 HXLINE( 477)			this->colorB->set_visible(true);
 HXLINE( 479)			if ((assetName == HX_("mal",98,0a,53,00))) {
-HXLINE( 480)				oof = -100;
-HXLINE( 481)				oof2 = 0;
+HXLINE( 480)				oof = 500;
+HXLINE( 481)				oof2 = 100;
 HXLINE( 482)				this->doko->set_flipX(false);
             			}
             			else {
 HXLINE( 484)				this->doko->set_flipX(true);
 HXLINE( 485)				oof = 750;
-HXLINE( 486)				oof2 = 70;
+HXLINE( 486)				oof2 = 100;
             			}
 HXLINE( 490)			 ::flixel::FlxSprite _hx_tmp13 = this->doko;
 HXDLIN( 490)			::String key2 = (HX_("characters/m/",a7,f6,3a,5a) + assetName);

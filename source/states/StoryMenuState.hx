@@ -477,13 +477,13 @@ class StoryMenuState extends MusicBeatState
 			colorB.visible = true;
 
 			if (assetName == "mal") {
-				oof = -100;
-				oof2 = 0;
+				oof = 500;
+				oof2 = 100;
 				doko.flipX = false;
 			} else {
 				doko.flipX = true; 
 				oof = 750;
-				oof2 = 70;
+				oof2 = 100;
 				
 			}
 
@@ -508,7 +508,6 @@ class StoryMenuState extends MusicBeatState
 			curDifficulty = 0;
 
 		var newPos:Int = Difficulty.list.indexOf(lastDifficultyName);
-		//trace('Pos of ' + lastDifficultyName + ' is ' + newPos);
 		if(newPos > -1)
 		{
 			curDifficulty = newPos;
