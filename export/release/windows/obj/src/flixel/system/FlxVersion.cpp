@@ -172,7 +172,7 @@ void FlxVersion_obj::__boot()
 {
 {
             	HX_STACKFRAME(&_hx_pos_529d5c4ac8cd6d00_39_boot)
-HXDLIN(  39)		sha = HX_("41366d6fa62bc80deebcbd043db2774db630be71\n",98,18,a9,70);
+HXDLIN(  39)		sha = HX_("b2c970aeee4d52e22e14c52ce57e5fd9a80b9594\n",b0,13,de,c9);
             	}
 }
 

@@ -83,6 +83,7 @@ class HXCPP_CLASS_ATTRIBUTES FreeplayState_obj : public  ::backend::MusicBeatSta
 		 ::flixel::text::FlxText passwordText;
 		 ::flixel::text::FlxText inputText;
 		::String password;
+		::String password2;
 		::String playerInput;
 		bool showingPasswordPrompt;
 		 ::flixel::group::FlxTypedGroup grpSongs;

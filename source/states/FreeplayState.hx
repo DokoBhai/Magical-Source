@@ -38,7 +38,8 @@ class FreeplayState extends MusicBeatState
 	var passwordBox:FlxSprite;
 	var passwordText:FlxText;
 	var inputText:FlxText;
-	var password:String = "bomboclat";
+	var password:String = "steamboat";
+	var password2:String = "picoday";
 	var playerInput:String = "";
 	var showingPasswordPrompt:Bool = false;	
 
@@ -63,8 +64,6 @@ class FreeplayState extends MusicBeatState
 	{
 		//Paths.clearStoredMemory();
 		//Paths.clearUnusedMemory();
-
-		// Password UI (hidden by default)
 
 
 		
@@ -511,7 +510,15 @@ class FreeplayState extends MusicBeatState
 				FlxG.save.data.secretSongUnlocked = true;
 				FlxG.save.flush();
 			}
-			else
+			else if (playerInput == password2)
+			{
+				passwordText.text = "Access Granted!";
+				MusicBeatState.resetState();
+				showingPasswordPrompt = false;
+				FlxG.save.data.picoSong = true;
+				FlxG.save.flush();
+			}
+			else 
 			{
 				passwordText.text = "Wrong Password. Try Again.";
 				playerInput = "";
@@ -527,6 +534,14 @@ class FreeplayState extends MusicBeatState
 		{
 			playerInput = playerInput.substr(0, playerInput.length - 1);
 			inputText.text = playerInput;
+		}
+
+		if (FlxG.keys.justPressed.P && !showingPasswordPrompt)
+		{
+			FlxG.save.data.picoSong = false;
+			FlxG.save.data.secretSongUnlocked = false;
+			FlxG.save.flush();
+			MusicBeatState.resetState();
 		}
 
 		if (!showingPasswordPrompt && FlxG.keys.justPressed.M)
@@ -555,6 +570,10 @@ class FreeplayState extends MusicBeatState
 		if (FlxG.save.data.secretSongUnlocked == true)
 			{
 				addSong('monochrome-steams', 1, 'mickey', FlxColor.fromRGB(255, 100, 100));
+			}
+		if (FlxG.save.data.picoSong == true) 
+			{
+				addSong('Fateful-Strike-Pico-Mix', 1, 'pico', FlxColor.fromRGB(255, 100, 100));
 			}
 	}
 
