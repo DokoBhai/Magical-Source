@@ -1,9 +1,0 @@
-Display the Composer of the song
-
-V1: song name
-V2: Composer
-- Use spaces to seperate names, for multiple
-- use ICON=name to set an icon, if there are
-multiple / the file is not the name of the
-only composer
-(Image goes in Images/SongCredits)

@@ -93,7 +93,6 @@ class StoryMenuState extends MusicBeatState
 		txtWeekTitle = new FlxText(FlxG.width * 0.7, 10, 0, "", 32);
 		txtWeekTitle.setFormat(Paths.font("vcr.ttf"), 32, FlxColor.WHITE, RIGHT);
 		txtWeekTitle.alpha = 0.7;
-		add(txtWeekTitle);
 
 		var ui_tex = Paths.getSparrowAtlas('campaign_menu_UI_assets');
 		var bgYellow:FlxSprite = new FlxSprite(0, 56).makeGraphic(FlxG.width, 386, 0xFFF9CF51);
@@ -190,7 +189,6 @@ class StoryMenuState extends MusicBeatState
 		rightArrow.animation.play('idle');
 		difficultySelectors.add(rightArrow);
 
-		add(bgSprite);
 		add(grpWeekCharacters);
 
 		tracksSprite = new FlxSprite(FlxG.width * 0.07 + 350, bgSprite.y + 175).loadGraphic(Paths.image('Menu_Tracks'));
@@ -203,6 +201,11 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist.font = Paths.font("vcr.ttf");
 		txtTracklist.color = 0xFFe55777;
 		add(txtTracklist);
+
+		// Move txtWeekTitle underneath txtTracklist
+		txtWeekTitle.y = txtTracklist.y + txtTracklist.height + 70;
+		txtWeekTitle.alignment = CENTER;
+		add(txtWeekTitle);
 
 		doko.frames = Paths.getSparrowAtlas('characters/m/pooh');
 		doko.animation.addByPrefix('idle', 'Idle', 24, true);
@@ -436,9 +439,12 @@ class StoryMenuState extends MusicBeatState
 		var leWeek:WeekData = loadedWeeks[curWeek];
 		WeekData.setDirectoryFromWeek(leWeek);
 
-		var leName:String = Language.getPhrase('storyname_${leWeek.fileName}', leWeek.storyName);
-		txtWeekTitle.text = leName.toUpperCase();
-		txtWeekTitle.x = FlxG.width - (txtWeekTitle.width + 10);
+	   var leName:String = Language.getPhrase('storyname_${leWeek.fileName}', leWeek.storyName);
+	   // Replace /n with \n for multi-line support in week titles
+	   leName = leName.replace('/n', '\n');
+	   txtWeekTitle.text = leName.toUpperCase();
+	   txtWeekTitle.alignment = LEFT;
+	   txtWeekTitle.x = txtTracklist.x;
 
 		var unlocked:Bool = !weekIsLocked(leWeek.fileName);
 		for (num => item in grpWeekText.members)
@@ -480,10 +486,10 @@ class StoryMenuState extends MusicBeatState
 			colorB.screenCenter();
 
 			if (assetName == "mal") {
-				oof = 500;
-				oof2 = Math.floor(FlxG.height / 2);
+				oof = 450;
+				oof2 = -100;
 				doko.flipX = false;
-				doko.scale.set(0.7,0.7);
+				doko.scale.set(0.53,0.55);
 			} else {
 				doko.flipX = true; 
 				oof = 750;
@@ -547,6 +553,7 @@ class StoryMenuState extends MusicBeatState
 
 		txtTracklist.screenCenter(X);
 		txtTracklist.x = tracksSprite.x;
+		txtWeekTitle.x = txtTracklist.x;
 
 		#if !switch
 		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);

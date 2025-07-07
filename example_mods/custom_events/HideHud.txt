@@ -1,2 +1,0 @@
-If Value 1 is hide then it will hide the hud
-IF Value 1 is show then it will show the hud

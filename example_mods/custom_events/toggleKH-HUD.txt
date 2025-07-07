@@ -1,4 +1,0 @@
-change the state of the HUD (FNF / KH)
-Value 1: State (fnf/off  --- kh/on)
-
-Leaving Value 1 Blank will swap the state (on/off)

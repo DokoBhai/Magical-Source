@@ -1,5 +1,0 @@
-Put 1 in value1 to make it hide
-
-Put 0 in value1 to make it show
-
-LEAVE VALUE 2 BLANK
