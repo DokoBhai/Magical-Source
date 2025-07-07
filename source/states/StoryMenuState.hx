@@ -481,7 +481,7 @@ class StoryMenuState extends MusicBeatState
 
 			if (assetName == "mal") {
 				oof = 500;
-				oof2 = FlxG.height /2;
+				oof2 = Math.floor(FlxG.height / 2);
 				doko.flipX = false;
 				doko.scale.set(0.7,0.7);
 			} else {
