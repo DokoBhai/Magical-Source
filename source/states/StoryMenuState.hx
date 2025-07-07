@@ -17,6 +17,7 @@ import backend.StageData;
 
 class StoryMenuState extends MusicBeatState
 {
+	var tracksSprite:FlxSprite;
 	public static var weekCompleted:Map<String, Bool> = new Map<String, Bool>();
 
 	var scoreText:FlxText;
@@ -192,9 +193,9 @@ class StoryMenuState extends MusicBeatState
 		add(bgSprite);
 		add(grpWeekCharacters);
 
-		var tracksSprite:FlxSprite = new FlxSprite(FlxG.width * 0.07 + 350, bgSprite.y + 175).loadGraphic(Paths.image('Menu_Tracks'));
+		tracksSprite = new FlxSprite(FlxG.width * 0.07 + 350, bgSprite.y + 175).loadGraphic(Paths.image('Menu_Tracks'));
 		tracksSprite.antialiasing = ClientPrefs.data.antialiasing;
-		tracksSprite.x -= tracksSprite.width/2;
+		tracksSprite.x -= tracksSprite.width/2 + 30;
 		add(tracksSprite);
 
 		txtTracklist = new FlxText(FlxG.width * 0.05, tracksSprite.y + 60, 0, "", 32);
@@ -459,6 +460,8 @@ class StoryMenuState extends MusicBeatState
 			book.visible = true;
 			colorB.loadGraphic(Paths.image('color/debug'));
 			colorB.visible = true;
+			colorB.setGraphicSize(FlxG.width, FlxG.height);
+			colorB.screenCenter();
 
 			oof = 0;
 			oof2 = 0;
@@ -469,22 +472,23 @@ class StoryMenuState extends MusicBeatState
 			doko.antialiasing = ClientPrefs.data.antialiasing;
 			doko.visible = true;
 		} else {
-			bgSprite.loadGraphic(Paths.image('menubackgrounds/menu_' + assetName2));
-			bgSprite.visible = false; //Makes it so its always not visible --Doko
 			book.loadGraphic(Paths.image('books/book_' + assetName));
 			colorB.loadGraphic(Paths.image('color/' + assetName));
 			trace('DEBUG: assetName for bg is: ' + assetName);
 			colorB.visible = true;
+			colorB.setGraphicSize(FlxG.width, FlxG.height);
+			colorB.screenCenter();
 
 			if (assetName == "mal") {
 				oof = 500;
-				oof2 = 100;
+				oof2 = FlxG.height /2;
 				doko.flipX = false;
+				doko.scale.set(0.7,0.7);
 			} else {
 				doko.flipX = true; 
 				oof = 750;
 				oof2 = 100;
-				
+				doko.scale.set(1,1);
 			}
 
 			doko.frames = Paths.getSparrowAtlas('characters/m/' + assetName);
@@ -542,7 +546,7 @@ class StoryMenuState extends MusicBeatState
 		txtTracklist.text = txtTracklist.text.toUpperCase();
 
 		txtTracklist.screenCenter(X);
-		txtTracklist.x -= FlxG.width * 0.35;
+		txtTracklist.x = tracksSprite.x;
 
 		#if !switch
 		intendedScore = Highscore.getWeekScore(loadedWeeks[curWeek].fileName, curDifficulty);

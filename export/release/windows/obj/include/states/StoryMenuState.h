@@ -63,6 +63,7 @@ class HXCPP_CLASS_ATTRIBUTES StoryMenuState_obj : public  ::backend::MusicBeatSt
 		static  ::haxe::ds::StringMap weekCompleted;
 		static ::String lastDifficultyName;
 		static int curWeek;
+		 ::flixel::FlxSprite tracksSprite;
 		 ::flixel::text::FlxText scoreText;
 		 ::flixel::FlxSprite book;
 		 ::flixel::FlxSprite colorB;
