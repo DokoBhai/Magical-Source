@@ -1,16 +1,10 @@
 {
-	"storyName": "Malificent",
+	"storyName": "Malificent /n boom /n haha",
 	"difficulties": "",
 	"hideFreeplay": false,
 	"weekBackground": "stage",
 	"weekBefore": "tutorial",
 	"startUnlocked": true,
-	"weekCharacters": [
-		"bf",
-		"bf",
-		"gf"
-	],
-	"hideStoryMode": false,
 	"songs": [
 		[
 			"hex",
@@ -31,6 +25,12 @@
 			]
 		]
 	],
-	"hiddenUntilUnlocked": false,
-	"weekName": "Custom Week"
+	"weekCharacters": [
+		"bf",
+		"bf",
+		"gf"
+	],
+	"hideStoryMode": false,
+	"weekName": "Custom Week",
+	"hiddenUntilUnlocked": false
 }

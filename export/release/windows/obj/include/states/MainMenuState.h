@@ -70,6 +70,7 @@ class HXCPP_CLASS_ATTRIBUTES MainMenuState_obj : public  ::backend::MusicBeatSta
 		::String rightOption;
 		 ::flixel::FlxSprite magenta;
 		 ::flixel::FlxObject camFollow;
+		 ::flixel::FlxSprite line;
 		void create();
 
 		 ::flixel::FlxSprite createMenuItem(::String name,Float x,Float y);

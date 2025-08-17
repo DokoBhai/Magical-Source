@@ -37,6 +37,8 @@ class MainMenuState extends MusicBeatState
 	var magenta:FlxSprite;
 	var camFollow:FlxObject;
 
+	var line:FlxSprite;
+
 	static var showOutdatedWarning:Bool = true;
 	override function create()
 	{
@@ -81,18 +83,20 @@ class MainMenuState extends MusicBeatState
 
 		for (num => option in optionShit)
 		{
-			var item:FlxSprite = createMenuItem(option, 0, (num * 140) + 90);
+			var item:FlxSprite = createMenuItem(option, 100, (num * 140) + 90);
 			item.y += (4 - optionShit.length) * 70; // Offsets for when you have anything other than 4 items
-			item.screenCenter(X);
 		}
 
-		if (leftOption != null)
-			leftItem = createMenuItem(leftOption, 60, 490);
-		if (rightOption != null)
-		{
-			rightItem = createMenuItem(rightOption, FlxG.width - 60, 490);
-			rightItem.x -= rightItem.width;
-		}
+		// Stack achievements (leftOption) above options (rightOption) on the right side
+	   var iconX = FlxG.width - 60;
+	   if (rightOption != null)
+	   {
+		   rightItem = createMenuItem(rightOption, 1080, 490);
+		   rightItem.scale.set(0.8, 0.8);
+	   }
+	   if (leftOption != null)
+		   leftItem = createMenuItem(leftOption, 1080, 300);
+	   		leftItem.scale.set(0.8, 0.8);
 
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
@@ -102,6 +106,18 @@ class MainMenuState extends MusicBeatState
 		fnfVer.scrollFactor.set();
 		fnfVer.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(fnfVer);
+
+		 // Create a black line, centered and tilted
+		line = new FlxSprite();
+		line.makeGraphic(800, 8, FlxColor.BLACK);
+		line.antialiasing = ClientPrefs.data.antialiasing;
+		line.angle = -100;
+		line.screenCenter(X);
+		line.x += 150;
+		line.y = FlxG.height / 2 + 30;
+		line.scrollFactor.set(0,0); 
+		add(line);
+
 		changeItem();
 
 		#if ACHIEVEMENTS_ALLOWED
@@ -151,11 +167,32 @@ class MainMenuState extends MusicBeatState
 
 		if (!selectedSomethin)
 		{
-			if (controls.UI_UP_P)
-				changeItem(-1);
 
-			if (controls.UI_DOWN_P)
-				changeItem(1);
+		   // Only allow UP to go to achievements if options is selected (RIGHT column)
+		   if (curColumn == RIGHT && controls.UI_UP_P && leftOption != null)
+		   {
+			   curColumn = LEFT;
+			   changeItem();
+		   }
+		   else if (curColumn == LEFT && controls.UI_DOWN_P && rightOption != null)
+		   {
+			   curColumn = RIGHT;
+			   changeItem();
+		   }
+		   // Allow LEFT arrow to return from achievements to main menu (CENTER)
+		   else if (curColumn == LEFT && controls.UI_LEFT_P)
+		   {
+			   curColumn = CENTER;
+			   changeItem();
+		   }
+		   else
+		   {
+			   if (controls.UI_UP_P)
+				   changeItem(-1);
+
+			   if (controls.UI_DOWN_P)
+				   changeItem(1);
+		   }
 
 			var allowMouse:Bool = allowMouse;
 			if (allowMouse && ((FlxG.mouse.deltaScreenX != 0 && FlxG.mouse.deltaScreenY != 0) || FlxG.mouse.justPressed)) //FlxG.mouse.deltaScreenX/Y checks is more accurate than FlxG.mouse.justMoved
@@ -226,34 +263,35 @@ class MainMenuState extends MusicBeatState
 				if(timeNotMoving > 2) FlxG.mouse.visible = false;
 			}
 
-			switch(curColumn)
-			{
-				case CENTER:
-					if(controls.UI_LEFT_P && leftOption != null)
-					{
-						curColumn = LEFT;
-						changeItem();
-					}
-					else if(controls.UI_RIGHT_P && rightOption != null)
-					{
-						curColumn = RIGHT;
-						changeItem();
-					}
+		   switch(curColumn)
+		   {
+			   case CENTER:
+				   if(controls.UI_RIGHT_P && rightOption != null)
+				   {
+					   curColumn = RIGHT;
+					   changeItem();
+				   }
 
-				case LEFT:
-					if(controls.UI_RIGHT_P)
-					{
-						curColumn = CENTER;
-						changeItem();
-					}
+			   case LEFT:
+				   if(controls.UI_RIGHT_P)
+				   {
+					   curColumn = CENTER;
+					   changeItem();
+				   }
 
-				case RIGHT:
-					if(controls.UI_LEFT_P)
-					{
-						curColumn = CENTER;
-						changeItem();
-					}
-			}
+			   case RIGHT:
+				   // Only allow UP to go to achievements if options is selected
+				   if(controls.UI_UP_P && leftOption != null && curColumn == RIGHT)
+				   {
+					   curColumn = LEFT;
+					   changeItem();
+				   }
+				   else if(controls.UI_LEFT_P)
+				   {
+					   curColumn = CENTER;
+					   changeItem();
+				   }
+		   }
 
 			if (controls.BACK)
 			{
